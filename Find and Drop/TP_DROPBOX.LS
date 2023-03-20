@@ -20,13 +20,24 @@ DEFAULT_GROUP	= 1,*,*,*,*;
 CONTROL_CODE	= 00000000 00000000;
 /APPL
 /MN
+       //Finding the drop sign to be able to drop off found piece
+       //First 4 lines of code telling the robot basic information
+       //We are going to use User Frame number 3 
    1:  UFRAME_NUM=3 ;
+       //UTOOL is the User Tool that we are plaing on using 
    2:  UTOOL_NUM=1 ;
+       //PAYLOAD how heavy is the tool that we are using
    3:  PAYLOAD[1:EOAT w/o part] ;
+       //We can change the speed of our program here
    4:  OVERRIDE=100% ;
    5:   ;
+       //Execunting the VISION RUN_FIND SR[5] 
+       //Searcing for an object with the string name saved on the String Register number 5
    6:  VISION RUN_FIND SR[5]    ;
+       //If the object is found we can get it's position and we will save it on Vision Register VR[3] 
+       //Else if no object is found we will jump to label number 97 
    7:  VISION GET_OFFSET SR[5] VR[3] JMP LBL[97] ;
+       //
    8:  JMP LBL[R[2]] ;
    9:   ;
   10:  LBL[1] ;
