@@ -25,7 +25,7 @@ CONTROL_CODE	= 00000000 00000000;
     :  !First 4 lines of code telling the robot basic information      ;
     :  !We are going to use User Frame number 3      ;
    1:  UFRAME_NUM=3 ;
-    :  !UTOOL is the User Tool that we are plaing on using      ;
+    :  !UTOOL is the User Tool that we are planing on using      ;
    2:  UTOOL_NUM=1 ;
     :  !PAYLOAD how heavy is the tool that we are using      ;
    3:  PAYLOAD[1:EOAT w/o part] ;
