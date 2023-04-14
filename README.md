@@ -12,6 +12,7 @@ TP  PROGRAM:
 			TP_BUILD_SCAN
 			TP_SCAN_AREA
 
+Register Integer → R[]
 |  			Group Variable 		 |  			Caption 		       |  			Register Number 		 |  			Value 		 |  			Description 		                                                                                                                                                                           |
 |------------------|-----------------|-------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  			   			 		            |  			CAP_LOOP 		      |  			1 		               |  			0-4 		   |  			Loop counter 		                                                                                                                                                                          |
@@ -36,43 +37,22 @@ TP  PROGRAM:
 |  			   			 		            |  			found_build 		   |  			30 		              |  			0-5 		   |  			Use by TP_SCAN_AREA 		                                                                                                                                                                   |
 |  			   			 		            |  			   			 		           |  			32 		              |  			0-5 		   |  			Use by TP_SCAN_AREA to count 			total pieces 		                                                                                                                                             |
 
-
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-\begin{table}[]
-\begin{tabular}{lllll}
-\rowcolor[HTML]{EEEEEE} 
-Group Use      & Caption           & Value             & ID & Description                                                                          \\
-\rowcolor[HTML]{FFF5CE} 
-TP\_FIND\_PLC  & OBJ\_PLC\_1       & OBJ\_PLC\_1       & 1  & Object name for PLC scanner                                                          \\
-\rowcolor[HTML]{FFF5CE} 
-               & OBJ\_PLC\_2       & OBJ\_PLC\_2       & 2  & Object name for PLC scanner                                                          \\
-\rowcolor[HTML]{FFF5CE} 
-               & OBJ\_PLC\_3       & OBJ\_PLC\_3       & 3  & Object name for PLC scanner                                                          \\
-\rowcolor[HTML]{FFF5CE} 
-               & OBJ\_PLC\_4       & OBJ\_PLC\_4       & 4  & Object name for PLC scanner                                                          \\
-               & OBJ\_PLC\_DROPBOX & OBJ\_PLC\_DROPBOX & 5  & Object name for the symbol 			box                                                    \\
-TP\_MAIN       & message           & message           & 6  & Shows a message                                                                      \\
-\rowcolor[HTML]{F6F9D4} 
-TP\_SCAN\_AREA & BUILD\_1          & OBJ\_BUILD\_1     & 10 & Object name for TP\_BUILD 			scanner                                                 \\
-\rowcolor[HTML]{F6F9D4} 
-               &                   & OBJ\_BUILD\_2     & 11 & Object name for TP\_BUILD 			scanner                                                 \\
-\rowcolor[HTML]{F6F9D4} 
-               &                   & OBJ\_BUILD\_3     & 12 & Object name for TP\_BUILD 			scanner                                                 \\
-\rowcolor[HTML]{F6F9D4} 
-               &                   & OBJ\_BUILD\_4     & 13 & Object name for TP\_BUILD 			scanner                                                 \\
-\rowcolor[HTML]{F6F9D4} 
-               &                   & OBJ\_BUILD\_5     & 13 & Object name for TP\_BUILD 			scanner                                                 \\
-\rowcolor[HTML]{B4C7DC} 
-Simple Finder  & comm\_find\_obj   &                   & 20 & Communicating piece that was 			found, this variable can be use to display a message \\
-\rowcolor[HTML]{B4C7DC} 
-               & comm\_find\_col   &                   & 21 & Communicating color found, 			this variable can be use to show a message             \\
-\rowcolor[HTML]{B4C7DC} 
-               & obj\_1            & obj\_1            & 22 & This is the object to be 			selected                                                 \\
-\rowcolor[HTML]{B4C7DC} 
-               & OBJ\_1\_2D\_SCAN  & Program Modify    & 24 &                                                                                      \\
-\rowcolor[HTML]{B4C7DC} 
-               & OBJ\_1\_2D        & Program Modify    & 25 & Selecting Object 1 of 2D 			camera (green square)                                   
-\end{tabular}
-\end{table}
+Program Strings → ST[]
+|  			Group Use 		     |  			Caption 		         |  			Value 		           |  			ID 		 |  			Description 		                                                                       |
+|-----------------|-------------------|-------------------|------|-------------------------------------------------------------------------------------|
+|  			TP_FIND_PLC 		   |  			OBJ_PLC_1 		       |  			OBJ_PLC_1 		       |  			1 		  |  			Object name for PLC scanner 		                                                       |
+|  			   			 		           |  			OBJ_PLC_2 		       |  			OBJ_PLC_2 		       |  			2 		  |  			Object name for PLC scanner 		                                                       |
+|  			   			 		           |  			OBJ_PLC_3 		       |  			OBJ_PLC_3 		       |  			3 		  |  			Object name for PLC scanner 		                                                       |
+|  			   			 		           |  			OBJ_PLC_4 		       |  			OBJ_PLC_4 		       |  			4 		  |  			Object name for PLC scanner 		                                                       |
+|  			   			 		           |  			OBJ_PLC_DROPBOX 		 |  			OBJ_PLC_DROPBOX 		 |  			5 		  |  			Object name for the symbol 			box 		                                                    |
+|  			TP_MAIN 		       |  			message 		         |  			message 		         |  			6 		  |  			Shows a message 		                                                                   |
+|  			TP_SCAN_AREA 		  |  			BUILD_1 		         |  			OBJ_BUILD_1 		     |  			10 		 |  			Object name for TP_BUILD 			scanner 		                                                  |
+|  			   			 		           |  			   			 		             |  			OBJ_BUILD_2 		     |  			11 		 |  			Object name for TP_BUILD 			scanner 		                                                  |
+|  			   			 		           |  			   			 		             |  			OBJ_BUILD_3 		     |  			12 		 |  			Object name for TP_BUILD 			scanner 		                                                  |
+|  			   			 		           |  			   			 		             |  			OBJ_BUILD_4 		     |  			13 		 |  			Object name for TP_BUILD 			scanner 		                                                  |
+|  			   			 		           |  			   			 		             |  			OBJ_BUILD_5 		     |  			13 		 |  			Object name for TP_BUILD 			scanner 		                                                  |
+|  			Simple Finder 		 |  			comm_find_obj 		   |  			   			 		             |  			20 		 |  			Communicating piece that was 			found, this variable can be use to display a message 		 |
+|  			   			 		           |  			comm_find_col 		   |  			   			 		             |  			21 		 |  			Communicating color found, 			this variable can be use to show a message 		             |
+|  			   			 		           |  			obj_1 		           |  			obj_1 		           |  			22 		 |  			This is the object to be 			selected 		                                                 |
+|  			   			 		           |  			OBJ_1_2D_SCAN 		   |  			Program Modify 		  |  			24 		 |  			   			 		                                                                               |
+|  			   			 		           |  			OBJ_1_2D 		        |  			Program Modify 		  |  			25 		 |  			Selecting Object 1 of 2D 			camera (green square) 		                                    |
