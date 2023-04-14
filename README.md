@@ -56,3 +56,41 @@ Program Strings → ST[]
 |  			   			 		           |  			obj_1 		           |  			obj_1 		           |  			22 		 |  			This is the object to be 			selected 		                                                 |
 |  			   			 		           |  			OBJ_1_2D_SCAN 		   |  			Program Modify 		  |  			24 		 |  			   			 		                                                                               |
 |  			   			 		           |  			OBJ_1_2D 		        |  			Program Modify 		  |  			25 		 |  			Selecting Object 1 of 2D 			camera (green square) 		                                    |
+
+
+Posoition Registers → PR[]
+|  			Group Use 		       |  			Caption 		          |  			ID 		 |  			Values 		         |  			Description 		                                                       |
+|-------------------|--------------------|------|------------------|---------------------------------------------------------------------|
+|  			   			 		             |  			HOME 		             |  			1 		  |  			Recorded 		       |  			User Frame and Camera was 			setup in this position 		                  |
+|  			   			 		             |  			cap_home_mid 		     |  			12 		 |  			Recorded 		       |  			   			 		                                                               |
+|  			TP_SCAN_PLC 		     |  			cap_PLC_cam2scan 		 |  			14 		 |  			Recorded 		       |  			Position the camera to scan 			conveyor for pieces 		                   |
+|  			   			 		             |  			cap_PLC_cam2drop 		 |  			15 		 |  			Recorded 		       |  			Position the camera to scan 			for box symbol 		                        |
+|  			   			 		             |  			cap_pick_PLC 		     |  			19 		 |  			Recorded 		       |  			Position to go and pick up 			part, we reuse this PR for all objects 		 |
+|  			   			 		             |  			cap_plc_cls2drop 		 |  			21 		 |  			Recorded 		       |  			Position the tool close to 			the box to drop 		                        |
+|  			   			 		             |  			cap_plc_drop_xy 		  |  			22 		 |  			Manually Enter 		 |  			Position to drop piece after 			scanning where the box is 		            |
+|  			   			 		             |  			cap_plc_drop_xyz 		 |  			23 		 |  			Program Math 		   |  			Calculates new position 			using PR[22] and the PR[43-46] 		            |
+|  			TP_SCAN_AREA 		    |  			cap_build_2 		      |  			25 		 |  			Recorded 		       |  			Position to pick up 2 of the 			TP_BUILD pieces 		                      |
+|  			   			 		             |  			cap_build_3 		      |  			26 		 |  			Recorded 		       |  			Position to pick up 1 piece 			of the TP_BUILD 		                       |
+|  			   			 		             |  			cap_build_4 		      |  			27 		 |  			Recorded 		       |  			Position to pick up 1 piece 			of the TP_BUILD 		                       |
+|  			   			 		             |  			cap_build_home 		   |  			28 		 |  			Recorded 		       |  			Position to build the house 		                                       |
+|  			   			 		             |  			cap_curr_poss 		    |  			30 		 |  			Program Modify 		 |  			The program uses this PR to 			know the current position 		             |
+|  			Offset Position 		 |  			cap_add_z 		        |  			40 		 |  			Z = 25 Manual 		  |  			Manual enter values 		                                               |
+|  			   			 		             |  			cap_add_x 		        |  			41 		 |  			X = 10 Manual 		  |  			Manual enter values 		                                               |
+|  			   			 		             |  			cap_add_y 		        |  			42 		 |  			Y = 10 Manual 		  |  			Manual enter values 		                                               |
+|  			   			 		             |  			cap_add_x50 		      |  			43 		 |  			X = 50 Manual 		  |  			Manual enter values 		                                               |
+|  			   			 		             |  			cap_add_y50 		      |  			44 		 |  			Y = 50 Manual 		  |  			Manual enter values 		                                               |
+|  			   			 		             |  			cap_subtract_x50 		 |  			45 		 |  			X = -50 Manual 		 |  			Manual enter values 		                                               |
+|  			   			 		             |  			cap_subtract_y50 		 |  			46 		 |  			Y = -50 Manual 		 |  			Manual enter values 		                                               |
+
+
+
+Global Digital I/O’s
+|  			Group 		  |  			Caption 		             |  			ID 		  |  			Values 		   |  			Description 		                                                                     |
+|----------|-----------------------|-------|------------|-----------------------------------------------------------------------------------|
+|  			INPUT 		  |  			PLC_IN 		              |  			101 		 |  			ON – OFF 		 |  			Comes from PLC – ON = 			Object is ready to be picked up OFF = object is not ready 		 |
+|  			OUTPUT 		 |  			PLC_OUT 		             |  			109 		 |  			ON – OFF 		 |  			Signal going to PLC 		                                                             |
+|  			   			 		    |  			SUB_RUNNING 		         |  			115 		 |  			ON – OFF 		 |  			IF ON we are be able to 			change Toggle Button 		                                    |
+|  			   			 		    |  			simdio108 		           |  			116 		 |  			ON – OFF 		 |  			In case the PLC is not 			working this will bypass DI[101] 		                         |
+|  			   			 		    |  			   			 		                 |  			   			 		 |  			   			 		      |  			   			 		                                                                             |
+|  			   			 		    |  			CAP_ALLOW_EXECUTION 		 |  			118 		 |  			ON – OFF 		 |  			If ON then run TP_PLC_FIND 		                                                      |
+|  			   			 		    |  			CAP_ALLOW_EXECUTION 		 |  			120 		 |  			ON – OFF 		 |  			If ON alarm will sound when 			a piece is found 		                                    |
