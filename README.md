@@ -3,14 +3,48 @@
 School Capstone
 
 TP  PROGRAM:
-	TP_MAIN
-		TP_PLC_ FIND
-			TP_SCAN_ALL
-			TP_PLC_MOVE
-			TP_DROPBOX
-		TP_BUILD_MAIN
-			TP_BUILD_SCAN
-			TP_SCAN_AREA
+-TP_MAIN
+--TP_PLC_ FIND
+----TP_SCAN_ALL
+----TP_PLC_MOVE
+----TP_DROPBOX
+--TP_BUILD_MAIN
+----TP_BUILD_SCAN
+----TP_SCAN_AREA
+
+Name: TP_MAIN
+Program Information
+This program controls what is executed from the Teach Pendant
+
+Name: TP_PLC_FIND
+Program Information
+Program start here, waits for signal from PLC to move to the scan position to call for TP_PLC_SCAN and TP_PLC_ MOVE, then turns OFF the DO[109] for 0.30 seconds to reset the conveyor restarting the process again.
+
+Name: TP_SCAN_ALL
+Program Information
+Tries to find piece on the conveyor by scanning the area 
+
+Name: TP_PLC_ MOVE
+Program Information
+Once piece is found the robots arm will go to the picking position, grabs it and moves to a program position then calls to TP_PLC_ DROPBOX
+
+Name: TP_PLC_ DROPBOX
+Program Information
+Moves to a programmed position and scans for a box bar code to drop the found piece, if the box is not found then the arm will just let the piece drop on this position.
+
+Name: TP_BUILD_MAIN
+Program Information
+Program start here, first it calls for TP_BUILD_SCAN and waits for all the pieces to be found then organize them on top of each other, making look like a house and finish. 
+If all pieces are not found it will finish
+
+Name: TP_BUILD_SCAN
+Program Information
+This is just in case we need to do something special before the real scan happens on our project, then calls for TP_SCAN_AREA to get all the pieces.
+
+Name: TP_SCAN_AREA
+Program Information
+Will look for 5 pieces on the scan area and record all their positions for the TP_BUILD_MAIN to use it.
+
 
 Register Integer → R[]
 |  			Group Variable 		 |  			Caption 		       |  			Register Number 		 |  			Value 		 |  			Description 		                                                                                                                                                                           |
@@ -94,3 +128,5 @@ Global Digital I/O’s
 |  			   			 		    |  			   			 		                 |  			   			 		 |  			   			 		      |  			   			 		                                                                             |
 |  			   			 		    |  			CAP_ALLOW_EXECUTION 		 |  			118 		 |  			ON – OFF 		 |  			If ON then run TP_PLC_FIND 		                                                      |
 |  			   			 		    |  			CAP_ALLOW_EXECUTION 		 |  			120 		 |  			ON – OFF 		 |  			If ON alarm will sound when 			a piece is found 		                                    |
+
+
