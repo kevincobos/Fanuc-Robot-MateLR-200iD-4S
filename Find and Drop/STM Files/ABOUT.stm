@@ -17,15 +17,15 @@
 	<table style="width:95%; height: 99%;">
 		<tr>
 			<th style="width: 24%"  >	
-					<img src="FANUC_BUILDER.jpg" alt="logo" height="228" width="230" /><br>
-					Scan me
+				<img src="FANUC_BUILDER.jpg" alt="logo" height="228" width="230" /><br>
+				Scan me
 			</th>
 	    	<th style="height: 100% width: 70%">
 	    	<div style="width: 100%; height: 100%">
 				<div align="center" style="width: 100%">
-			    		<strong>
-					    	<font size="4"><span>FANUC THE BUILDER</span></font>
-					    </strong>
+			    	<strong>
+					    <font size="4"><span>FANUC THE BUILDER</span></font>
+					</strong>
 	    		</div>	
 				<div align="middle" align="center">
         			<p align="center"><font size="4">Capstone team Spring 2023</font></p>
@@ -40,6 +40,5 @@
 			</th>
 		</tr>
 	</table>
-	
 </body>
 </html>
