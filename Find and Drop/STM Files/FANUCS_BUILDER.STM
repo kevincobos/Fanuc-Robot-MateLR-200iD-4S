@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<title>FANUC'S BUILDER</title>
+	<meta charset="utf-8">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' type='text/css' href='/frh/jquery/css/jquery-ui.css'>
+	<script src='/frh/jquery/js/jquery.js'></script>
+	<script src='/frh/jquery/js/jquery-ui.js'></script>	
+	<script>
+		$( function() 
+		{
+   			$( "#mytabs" ).tabs();
+		} );
+	</script>
+</head>
+<body>
+	<div id="mytabs">
+		<ul>
+    		<li><a href="#tabSimple">MAIN</a></li>
+    		<li><a href="#tabGame">Building</a></li>
+    		<li><a href="#tabAbout">About</a></li>
+    	</ul>
+	
+	    <div id="tabSimple">
+	      <iframe width="100%" height="270xp" style="border: 1px solid green" src="SIMPLEFINDER.stm">	
+	      </iframe>
+	    </div>
+	    	
+		<div id="tabGame">
+	      <iframe width="100%" height="270xp" style="border: 1px solid green" src="SETUP.stm">	
+	      </iframe>
+	    </div>
+	
+	    <div id="tabAbout">
+	    	<iframe width="100%" height="270px" style="border: 1px solid green" src="ABOUT.stm">	
+	    	</iframe>
+	    </div>					
+	</div>	
+</body>
+</html>

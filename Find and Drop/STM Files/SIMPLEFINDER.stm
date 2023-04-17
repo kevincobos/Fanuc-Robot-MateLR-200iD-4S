@@ -1,0 +1,670 @@
+﻿<html>
+<head>
+<title>SIMPLE FINDER</title>
+<meta http-equiv="Cache-Control" content="no-cache">
+<style>
+		img {
+		  max-width: 20%;
+		  height: auto;
+		}
+	.auto-style1 {
+	text-align: right;
+}
+	.auto-style4 {
+	text-align: center;
+}
+	.auto-style7 {
+	border-right-width: 0px;
+}
+.auto-style9 {
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+	.auto-style10 {
+	text-align: left;
+}
+	.auto-style11 {
+	background-color: #FFFF00;
+}
+.auto-style12 {
+	background-color: #00FFFF;
+}
+	.auto-style13 {
+	text-align: left;
+	color: #FF0A0A;
+}
+	.auto-style14 {
+	margin-left: 0px;
+}
+	</style>
+
+</head>
+<body>
+	<div class="auto-style4">
+		<tr>
+			<td valign="middle" align="center">
+				<table border="0" cellpadding="0" cellspacing="0" width="100%" style="height: 39px">
+	  				<tr>
+	  					<td >
+							<div>
+								<p align="center" style="width: 100%"><font size="4">
+								<img src="obj_Incognite.jpg" alt="object" width="41" height="18"/>&nbsp;<strong>MAIN 
+								PROGRAM</strong>&nbsp;</font>
+								<img src="obj_Incognite.jpg" alt="object" width="41" height="18"/></p>
+							</div>
+						</td>
+						<td >
+		  					<div align="center">	
+		  					
+    <object classid="clsid:7106065C-0E45-11D3-81B6-0000E206D650" id="FRIPLabel1" style="width: 148px">
+      <param name="Caption" value="message">
+      <param name="FontSize" value="14">
+      <param name="DataType" value="112">
+      <param name="DataIndex" value="6">
+      <param name="Interval" value="250">
+      <param name="TrueFont" value="-1">
+      <param name="FastLoad" value="0">
+
+      <param name="FontName" value="Verdana">
+      <param name="FontBold" value="0">
+      <param name="FontItalic" value="0">
+      <param name="FontWeight" value="400">
+      <param name="FontUnderline" value="0">
+      <param name="FontStrikethrough" value="0">
+      <param name="FontCharSet" value="0">
+      <param name="ForeColor" value="0">
+      <param name="BackColor" value="16777215">
+      <param name="Border" value="0">
+      <param name="HAlign" value="1">
+      <param name="VAlign" value="1">
+      <param name="Periodic" value="0">
+      <param name="IOSim" value="0">
+      <param name="Pipe" value="">
+      <param name="Invisible" value="">
+      <param name="Disable" value="">
+      <param name="RWAccess" value="0">
+
+    </object>
+		  					
+    <object classid="clsid:2EA73C0F-6FB5-11D3-823F-0000E206D650" id="FRIPCommandButton1" >
+      <param name="Caption" value="STOP">
+      <param name="FontSize" value="14">
+      <param name="DataType" value="101">
+      <param name="DataIndex" value="22">
+      <param name="SetValue" value="4">
+      <param name="TrueFont" value="-1">
+      <param name="FastLoad" value="0">
+
+      <param name="FontName" value="Verdana">
+      <param name="FontBold" value="0">
+      <param name="FontItalic" value="0">
+      <param name="FontWeight" value="400">
+      <param name="FontUnderline" value="0">
+      <param name="FontStrikethrough" value="0">
+      <param name="FontCharSet" value="0">
+      <param name="Type" value="1">
+      <param name="ForeColor" value="0">
+      <param name="BackColor" value="255">
+      <param name="Border" value="0">
+      <param name="HAlign" value="1">
+      <param name="VAlign" value="1">
+      <param name="ViewType" value="0">
+      <param name="TrueColor" value="65280">
+      <param name="FalseColor" value="255">
+      <param name="TrueImage" value="">
+      <param name="FalseImage" value="">
+      <param name="Pulse" value="0">
+      <param name="PulseTime" value="100">
+      <param name="IOSim" value="0">
+      <param name="Pipe" value="">
+      <param name="Interval" value="250">
+      <param name="ReadOnly" value="">
+      <param name="Invisible" value="">
+      <param name="Disable" value="">
+      <param name="OverrideRO" value="0">
+      <param name="RWAccess" value="0">
+      <param name="ValueStr" value="">
+      <param name="ChkDeadman" value="0">
+      <param name="ChkTpEnable" value="0">
+      <param name="ChkShift" value="0">
+      <param name="ChkIo" value="0">
+      <param name="ChkIoType" value="0">
+      <param name="ChkIoIdx" value="0">
+
+    </object>
+		  					
+		  					</div>
+		  				</td>
+					</tr>
+				</table>
+			</td>
+        	<div align="center">
+	  				<table border="0" cellpadding="0" cellspacing="0" width="100%" style="height: 39px">
+		  				<tr>
+		  					<td height="43" style="border-style: groove; width: 100%" class="auto-style4">			
+							
+								<table style="width: 80%">
+									<tr>
+										<td >
+					  						<p class="auto-style13"  >Please read before executing any program.</p>
+											<p class="auto-style10"  >There is two ways to run our program, locally manual, locally auto and TP Remotly</p>
+											<p class="auto-style10"  >
+											<strong>1) Local manual</strong></p>
+											<p class="auto-style10"  >-Make sure that the robot is on LOCAL on the bottom of this page we have a button for it.</p>
+											<p class="auto-style10"  >-Select TP_MAIN program</p>
+											<p class="auto-style10"  >-On the Teach Pendant hold the deadman switch&nbsp; press SHIFT and FWD.</p>
+											<p class="auto-style10"  >-Select on the menu below select the program that you want to run </p>
+											<p class="auto-style10"  >&nbsp;</p>
+											<p class="auto-style10"  ><strong>2) Local auto</strong></p>
+											<p class="auto-style10"  >-Make sure 
+											that the robot is on LOCAL on the 
+											bottom of this page we have a button for 
+											it.</p>
+											<p class="auto-style10"  >-Select 
+											TP_MAIN program</p>
+											<p class="auto-style10"  >-On the 
+											Teach Pendant press FCTN then click 
+											on ABORT (ALL)</p>
+											<p class="auto-style10"  >-On the 
+											top left ot the Teach Pendant is a 
+											switch, turn it to OFF, do the same 
+											on the robot's computer.</p>
+											<p class="auto-style10"  >-Press 
+											SHIFT plus RESET to clear errors.</p>
+											<p class="auto-style10"  >-On the 
+											robot's computer press the AUTO 
+											button</p>
+											<p class="auto-style10"  >-Select on 
+											the menu below select the program 
+											that you want to run </p>
+											<p class="auto-style10"  >&nbsp;</p>
+											<p class="auto-style10"  ><strong>3) 
+											TP Remote: </strong></p>
+											<p class="auto-style10"  >-Make sure 
+											that the robot is on REMOTE on the 
+											bottom of this page we have a button for 
+											it.</p>
+											<p class="auto-style10"  >-Select on 
+											the menu below select the program 
+											that you want to run and click on 
+											EXECUTE REMOTE PROGRAM</p>
+											<p class="auto-style13"  >Program 
+											description.</p>
+											<p class="auto-style10"  >The PLC sends a signal to the robot, then 
+												the robot will scan the PLC pickup area for 
+												an object, once the object is found, it will 
+												be drop off on the box. 									</p>
+												<p class="auto-style10"  >
+												<strong>1)SINGLE:</strong> 
+												Will run the program one time and 
+												will stop
+																				<p class="auto-style10"  ><strong>2)LOOP: </strong>Will run the program until the user 
+												terminates the loop
+											</p>
+											<p class="auto-style10"  ><strong>3) 
+											STOP LOOP:</strong> 
+												botton on the Corner will stop the 
+												Main Program after Single or the 
+											end of a Loop 
+												are done.
+											</p>
+											<p class="auto-style10">Before 
+												running any program make sure the 
+												robot area is clear and everybody is 
+												at a safe distance.
+											</p>
+											<p class="auto-style4">	
+												<table style="width: 100%">
+													<tr>
+														<td style="height: 99px">
+														<table style="width: 45%" align="center">
+															<tr class="auto-style4">
+																<td style="width: 215px">
+																	Setup run mode
+																	<object classid="clsid:7106066C-0E45-11D3-81B6-0000E206D650" id="FRIPToggleButton6" style="width: 145px; height: 52px;">
+																		<param name="Caption" value="REMOTE">
+																		<param name="FontSize" value="14">
+																		<param name="width" value="100">
+																		<param name="height" value="50">
+																		<param name="DataType" value="102">
+																		<param name="DataIndex" value="$REMOTE_CFG.$REMOTE_TYPE">
+																		<param name="TrueColor" value="255">
+																		<param name="FalseColor" value="16744576">
+																		<param name="Interval" value="250">
+																		<param name="TrueFont" value="-1">
+																		<param name="FastLoad" value="-1">
+																    	<param name="TrueCaption" value="LOCAL">											    	
+																    	<param name="FalseStrColor" value="16777215">
+																    	<param name="Type" value="1">
+																		<param name="TrueValue" value="2">
+																    	<param name="FalseValue" value="1">
+																		<param name="Border" value="4">
+																    	<param name="OtherPhase" value="1">
+																    </object>
+																</td>
+																	<td style="width: 426px">
+																		<object classid="clsid:7106066C-0E45-11D3-81B6-0000E206D650" id="FRIPToggleButton4" style="width: 343px; height: 68px;">
+																			<param name="Caption" value="EXECUTE REMOTE PROGRAM">
+																			<param name="FontSize" value="14">
+																			<param name="width" value="100">
+																			<param name="height" value="50">
+																			<param name="DataType" value="102">
+																			<param name="DataIndex" value="$SHELL_WRK.$CUST_START">
+																			<param name="TrueColor" value="255">
+																			<param name="FalseColor" value="8421504">
+																			<param name="Interval" value="250">
+																			<param name="TrueFont" value="-1">
+																			<param name="FastLoad" value="-1">
+																	    	<param name="TrueCaption" value="START REMOTE PROGRAM">											    	
+																	    	<param name="FalseStrColor" value="16777215">
+																	    	<param name="Type" value="1">
+																			<param name="TrueValue" value="1">
+																	    </object>		  					
+    																</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>		  					
+    										</p>
+					  					</td>
+									</tr>
+								</table>							
+							<div class="auto-style4">
+							<div>
+									<strong>Execution and Settings</strong>	
+								</div>				
+									<table class="auto-style7">
+										<tbody class="auto-style1">
+										<tr>							
+											<td class="auto-style9" style="height: 312px">	
+												<table >
+													<tr>			
+														<td style="height: 245px">
+															<div class="auto-style4">
+																<strong>
+																	Build Program
+																</strong>	
+															</div>
+															<div>																																						
+															    <object classid="clsid:2EA73C0F-6FB5-11D3-823F-0000E206D650" id="FRIPCommandButton2" style="width: 102px" >
+															      <param name="Caption" value="BUILD">
+															      <param name="FontSize" value="14">
+															      <param name="DataType" value="101">
+															      <param name="DataIndex" value="22">
+															      <param name="SetValue" value="3">
+															      <param name="TrueFont" value="-1">
+															      <param name="FastLoad" value="0">
+															
+															      <param name="FontName" value="Verdana">
+															      <param name="FontBold" value="0">
+															      <param name="FontItalic" value="0">
+															      <param name="FontWeight" value="400">
+															      <param name="FontUnderline" value="0">
+															      <param name="FontStrikethrough" value="0">
+															      <param name="FontCharSet" value="0">
+															      <param name="Type" value="1">
+															      <param name="ForeColor" value="0">
+															      <param name="BackColor" value="65280">
+															      <param name="Border" value="0">
+															      <param name="HAlign" value="1">
+															      <param name="VAlign" value="1">
+															      <param name="ViewType" value="0">
+															      <param name="TrueColor" value="65280">
+															      <param name="FalseColor" value="255">
+															      <param name="TrueImage" value="">
+															      <param name="FalseImage" value="">
+															      <param name="Pulse" value="0">
+															      <param name="PulseTime" value="100">
+															      <param name="IOSim" value="0">
+															      <param name="Pipe" value="">
+															      <param name="Interval" value="250">
+															      <param name="ReadOnly" value="">
+															      <param name="Invisible" value="">
+															      <param name="Disable" value="">
+															      <param name="OverrideRO" value="0">
+															      <param name="RWAccess" value="0">
+															      <param name="ValueStr" value="">
+															      <param name="ChkDeadman" value="0">
+															      <param name="ChkTpEnable" value="0">
+															      <param name="ChkShift" value="0">
+															      <param name="ChkIo" value="0">
+															      <param name="ChkIoType" value="0">
+															      <param name="ChkIoIdx" value="0">															
+															    </object>	
+															  </div>	  																	  
+														</td>											
+														<td class="auto-style11" style="height: 245px">															
+															<div class="auto-style4">
+																<strong>
+																	PLC Programs
+																</strong>																
+															</div>															
+															<div class="auto-style4">													
+															    <object classid="clsid:2EA73C0F-6FB5-11D3-823F-0000E206D650" id="FRIPCommandButton2" class="auto-style14" style="width: 125px"  >
+															      <param name="Caption" value="SINGLE">
+															      <param name="FontSize" value="14">
+															      <param name="DataType" value="101">
+															      <param name="DataIndex" value="22">
+															      <param name="SetValue" value="1">
+															      <param name="TrueFont" value="-1">
+															      <param name="FastLoad" value="0">
+															
+															      <param name="FontName" value="Verdana">
+															      <param name="FontBold" value="0">
+															      <param name="FontItalic" value="0">
+															      <param name="FontWeight" value="400">
+															      <param name="FontUnderline" value="0">
+															      <param name="FontStrikethrough" value="0">
+															      <param name="FontCharSet" value="0">
+															      <param name="Type" value="1">
+															      <param name="ForeColor" value="0">
+															      <param name="BackColor" value="65280">
+															      <param name="Border" value="0">
+															      <param name="HAlign" value="1">
+															      <param name="VAlign" value="1">
+															      <param name="ViewType" value="0">
+															      <param name="TrueColor" value="65280">
+															      <param name="FalseColor" value="255">
+															      <param name="TrueImage" value="">
+															      <param name="FalseImage" value="">
+															      <param name="Pulse" value="0">
+															      <param name="PulseTime" value="100">
+															      <param name="IOSim" value="0">
+															      <param name="Pipe" value="">
+															      <param name="Interval" value="250">
+															      <param name="ReadOnly" value="">
+															      <param name="Invisible" value="">
+															      <param name="Disable" value="">
+															      <param name="OverrideRO" value="0">
+															      <param name="RWAccess" value="0">
+															      <param name="ValueStr" value="">
+															      <param name="ChkDeadman" value="0">
+															      <param name="ChkTpEnable" value="0">
+															      <param name="ChkShift" value="0">
+															      <param name="ChkIo" value="0">
+															      <param name="ChkIoType" value="0">
+															      <param name="ChkIoIdx" value="0">															
+															    </object>		  					
+														    </div>
+														    														    
+														    <table style="width: 100%" class="auto-style12">
+																<tr>
+																	<td class="auto-style4">
+																	
+															    <object classid="clsid:2EA73C0F-6FB5-11D3-823F-0000E206D650" id="FRIPCommandButton3" >
+															        
+															      <param name="Caption" value="LOOP">
+															      <param name="FontSize" value="14">
+															      <param name="DataType" value="101">
+															      <param name="DataIndex" value="22">
+															      <param name="SetValue" value="2">
+															      <param name="TrueFont" value="-1">
+															      <param name="FastLoad" value="0">
+															
+															      <param name="FontName" value="Verdana">
+															      <param name="FontBold" value="0">
+															      <param name="FontItalic" value="0">
+															      <param name="FontWeight" value="400">
+															      <param name="FontUnderline" value="0">
+															      <param name="FontStrikethrough" value="0">
+															      <param name="FontCharSet" value="0">
+															      <param name="Type" value="1">
+															      <param name="ForeColor" value="0">
+															      <param name="BackColor" value="65280">
+															      <param name="Border" value="0">
+															      <param name="HAlign" value="1">
+															      <param name="VAlign" value="1">
+															      <param name="ViewType" value="0">
+															      <param name="TrueColor" value="65280">
+															      <param name="FalseColor" value="255">
+															      <param name="TrueImage" value="">
+															      <param name="FalseImage" value="">
+															      <param name="Pulse" value="0">
+															      <param name="PulseTime" value="100">
+															      <param name="IOSim" value="0">
+															      <param name="Pipe" value="">
+															      <param name="Interval" value="250">
+															      <param name="ReadOnly" value="">
+															      <param name="Invisible" value="">
+															      <param name="Disable" value="">
+															      <param name="OverrideRO" value="0">
+															      <param name="RWAccess" value="0">
+															      <param name="ValueStr" value="">
+															      <param name="ChkDeadman" value="0">
+															      <param name="ChkTpEnable" value="0">
+															      <param name="ChkShift" value="0">
+															      <param name="ChkIo" value="0">
+															      <param name="ChkIoType" value="0">
+															      <param name="ChkIoIdx" value="0">																    </object>		  					
+														    		<br>		  					
+															    <object classid="clsid:2EA73C0F-6FB5-11D3-823F-0000E206D650" id="FRIPCommandButton4" style="height: 79px" >
+															      <param name="Caption" value="STOP LOOP">
+															      <param name="FontSize" value="14">
+															      <param name="DataType" value="101">
+															      <param name="DataIndex" value="22">
+															      <param name="SetValue" value="2">
+															      <param name="TrueFont" value="-1">
+															      <param name="FastLoad" value="0">
+															
+															      <param name="FontName" value="Verdana">
+															      <param name="FontBold" value="0">
+															      <param name="FontItalic" value="0">
+															      <param name="FontWeight" value="400">
+															      <param name="FontUnderline" value="0">
+															      <param name="FontStrikethrough" value="0">
+															      <param name="FontCharSet" value="0">
+															      <param name="Type" value="1">
+															      <param name="ForeColor" value="0">
+															      <param name="BackColor" value="255">
+															      <param name="Border" value="0">
+															      <param name="HAlign" value="1">
+															      <param name="VAlign" value="1">
+															      <param name="ViewType" value="0">
+															      <param name="TrueColor" value="65280">
+															      <param name="FalseColor" value="255">
+															      <param name="TrueImage" value="">
+															      <param name="FalseImage" value="">
+															      <param name="Pulse" value="0">
+															      <param name="PulseTime" value="100">
+															      <param name="IOSim" value="0">
+															      <param name="Pipe" value="">
+															      <param name="Interval" value="250">
+															      <param name="ReadOnly" value="">
+															      <param name="Invisible" value="">
+															      <param name="Disable" value="">
+															      <param name="OverrideRO" value="0">
+															      <param name="RWAccess" value="0">
+															      <param name="ValueStr" value="">
+															      <param name="ChkDeadman" value="0">
+															      <param name="ChkTpEnable" value="0">
+															      <param name="ChkShift" value="0">
+															      <param name="ChkIo" value="0">
+															      <param name="ChkIoType" value="0">
+															      <param name="ChkIoIdx" value="0">															
+															    </object>		  					
+																	
+																	</td>
+																</tr>
+															</table>
+														    														    
+														</td>													
+														<td style="height: 245px" >
+															<div class="auto-style4">
+																<b>
+																	Alarm
+																</b>
+															</div>
+															<div>
+																<object classid="clsid:7106066C-0E45-11D3-81B6-0000E206D650" id="FRIPToggleButton3" style="width: 70px; float: left;">
+																	<param name="Caption" value="OFF">
+																	<param name="FontSize" value="14">
+																	<param name="width" value="100">
+																	<param name="height" value="50">
+																	<param name="DataType" value="2">
+																	<param name="DataIndex" value="120">
+																	<param name="TrueColor" value="255">
+																	<param name="FalseColor" value="16711680">
+																	<param name="SetValue" value="1">
+																	<param name="TrueFont" value="-1">
+																	<param name="FastLoad" value="0">
+																	<param name="Type" value="0">
+																	<param name="IOSim" value="0">
+																	<param name="TrueCaption" value="ON">
+																	<param name="FalseStrColor" value="16777215">
+												    			</object>							
+															</div>
+														</td>
+														<td style="height: 245px">								
+															<div class="auto-style4">
+																<b>
+																	Laser
+																</b>
+															</div>
+															<div class="auto-style10">
+																<object classid="clsid:7106066C-0E45-11D3-81B6-0000E206D650" id="FRIPToggleButton2" style="width: 70px; float: left;">
+																	<param name="Caption" value="OFF">
+																	<param name="FontSize" value="14">
+																	<param name="width" value="100">
+																	<param name="height" value="50">
+																	<param name="DataType" value="2">
+																	<param name="DataIndex" value="101">
+																	<param name="TrueColor" value="255">
+																	<param name="FalseColor" value="16711680">
+																	<param name="SetValue" value="1">
+																	<param name="TrueFont" value="-1">
+																	<param name="FastLoad" value="0">
+																	<param name="Type" value="0">
+																	<param name="IOSim" value="0">
+																	<param name="TrueCaption" value="ON">
+																	<param name="FalseStrColor" value="16777215">
+																</object>				
+															</div>
+														</td>
+														<td style="height: 245px">
+															<div class="auto-style4">																		
+																<strong>Current PLC signal</strong>
+															</div>
+															<div class="auto-style4">															
+															    <object classid="clsid:71060668-0E45-11D3-81B6-0000E206D650" id="FRIPToggleLamp1" style="width: 67px">
+															      <param name="Caption" value="OFF">
+															      <param name="FontSize" value="14">
+															      <param name="DataType" value="1">
+															      <param name="DataIndex" value="101">
+															      <param name="TrueColor" value="65280">
+															      <param name="FalseColor" value="255">
+															      <param name="Interval" value="250">
+															      <param name="TrueFont" value="-1">
+															      <param name="FastLoad" value="0">
+															
+															      <param name="FontName" value="Verdana">
+															      <param name="FontBold" value="0">
+															      <param name="FontItalic" value="0">
+															      <param name="FontWeight" value="400">
+															      <param name="FontUnderline" value="0">
+															      <param name="FontStrikethrough" value="0">
+															      <param name="FontCharSet" value="0">
+															      <param name="Type" value="0">
+															      <param name="CmpOperator" value="0">
+															      <param name="CmpValue" value="0">
+															      <param name="ForeColor" value="0">
+															      <param name="BackColor" value="16777215">
+															      <param name="Border" value="0">
+															      <param name="HAlign" value="1">
+															      <param name="VAlign" value="1">
+															      <param name="Periodic" value="0">
+															      <param name="ViewType" value="0">
+															      <param name="TrueImage" value="">
+															      <param name="FalseImage" value="">
+															      <param name="IOSim" value="0">
+															      <param name="Pipe" value="">
+															      <param name="Invisible" value="">
+															      <param name="Disable" value="">
+															      <param name="RWAccess" value="0">
+															      <param name="TrueCaption" value="ON">
+															      <param name="TrueStrColor" value="0">
+															      <param name="FalseStrColor" value="0">
+															      <param name="ValueStr" value="">
+															    </object>
+															</div>
+															<div class="auto-style4">
+																<strong><br>ByPass PLC Signal</strong>
+															</div>
+															<div class="auto-style4" style="height: 28px">
+																<object classid="clsid:7106066C-0E45-11D3-81B6-0000E206D650" id="FRIPToggleButton5" style="width: 82px; float: left;">
+																	<param name="Caption" value="OFF">
+																	<param name="FontSize" value="14">
+																	<param name="width" value="100">
+																	<param name="height" value="50">
+																	<param name="DataType" value="2">
+																	<param name="DataIndex" value="116">
+																	<param name="TrueColor" value="255">
+																	<param name="FalseColor" value="16711680">
+																	<param name="SetValue" value="1">
+																	<param name="TrueFont" value="-1">
+																	<param name="FastLoad" value="0">
+																	<param name="Type" value="0">
+																	<param name="IOSim" value="0">
+																	<param name="TrueCaption" value="ON">
+																	<param name="FalseStrColor" value="16777215">
+																</object>																																			
+															</div>
+														</td>
+													</tr>
+												</table>												
+											    <object classid="clsid:2EA73C0F-6FB5-11D3-823F-0000E206D650" id="FRIPCommandButton5" style="width: 288px" >
+											      <param name="Caption" value="STOP REMOTE">
+											      <param name="FontSize" value="14">
+											      <param name="DataType" value="101">
+											      <param name="DataIndex" value="22">
+											      <param name="SetValue" value="4">
+											      <param name="TrueFont" value="-1">
+											      <param name="FastLoad" value="0">
+											
+											      <param name="FontName" value="Verdana">
+											      <param name="FontBold" value="0">
+											      <param name="FontItalic" value="0">
+											      <param name="FontWeight" value="400">
+											      <param name="FontUnderline" value="0">
+											      <param name="FontStrikethrough" value="0">
+											      <param name="FontCharSet" value="0">
+											      <param name="Type" value="1">
+											      <param name="ForeColor" value="0">
+											      <param name="BackColor" value="255">
+											      <param name="Border" value="0">
+											      <param name="HAlign" value="1">
+											      <param name="VAlign" value="1">
+											      <param name="ViewType" value="0">
+											      <param name="TrueColor" value="65280">
+											      <param name="FalseColor" value="255">
+											      <param name="TrueImage" value="">
+											      <param name="FalseImage" value="">
+											      <param name="Pulse" value="0">
+											      <param name="PulseTime" value="100">
+											      <param name="IOSim" value="0">
+											      <param name="Pipe" value="">
+											      <param name="Interval" value="250">
+											      <param name="ReadOnly" value="">
+											      <param name="Invisible" value="">
+											      <param name="Disable" value="">
+											      <param name="OverrideRO" value="0">
+											      <param name="RWAccess" value="0">
+											      <param name="ValueStr" value="">
+											      <param name="ChkDeadman" value="0">
+											      <param name="ChkTpEnable" value="0">
+											      <param name="ChkShift" value="0">
+											      <param name="ChkIo" value="0">
+											      <param name="ChkIoType" value="0">
+											      <param name="ChkIoIdx" value="0">									   
+											    </object>
+						  					</td>
+										</tr>
+									</table>	
+								</div>						
+					    </tr>
+				    </table>
+			</div>			
+	</div>	        
+</body>
+</html>

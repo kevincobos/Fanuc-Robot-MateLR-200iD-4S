@@ -1,0 +1,16 @@
+﻿<html>
+<head>
+<title>About Information</title>
+</head>
+<body style="height: 100%">
+	<div style="height:100%">
+		<tr>
+			<td valign="middle" align="center">
+        	<p align="center"><font size="6">Capstone team Spring 2023:</font></p>
+        	<p align="center"><font size="6">Penelope Yang</font></p>
+        	<p align="center"><font size="6">Chad Threadgill</font></p>
+        	<p align="center"><font size="6">Kevin Cobos Diaz</font></p>
+       	</tr>
+	</div>
+</body>
+</html>

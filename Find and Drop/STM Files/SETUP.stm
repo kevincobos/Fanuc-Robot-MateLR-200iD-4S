@@ -1,0 +1,230 @@
+﻿<html>
+<head>
+<title>House Setup</title>
+<style type="text/css">
+.auto-style1 {
+	font-size: x-large;
+}
+.auto-style2 {
+	font-size: xx-small;
+}
+</style>
+</head>
+<body>
+	<div>
+		<tr>
+			<td valign="middle" align="center">
+        	<p align="center" class="auto-style1">Building a House<p align="center">															
+		    <object classid="clsid:71060668-0E45-11D3-81B6-0000E206D650" id="FRIPToggleLamp8" style="width: 32px; height: 40px;" class="auto-style2">
+		      <param name="Caption" value="e">
+		      <param name="FontSize" value="14">
+		      <param name="DataType" value="101">
+		      <param name="DataIndex" value="29">
+		      <param name="TrueColor" value="65280">
+		      <param name="FalseColor" value="255">
+		      <param name="Interval" value="250">
+		      <param name="TrueFont" value="-1">
+		      <param name="FastLoad" value="0">
+		
+		      <param name="FontName" value="Verdana">
+		      <param name="FontBold" value="0">
+		      <param name="FontItalic" value="0">
+		      <param name="FontWeight" value="400">
+		      <param name="FontUnderline" value="0">
+		      <param name="FontStrikethrough" value="0">
+		      <param name="FontCharSet" value="0">
+		      <param name="Type" value="0">
+		      <param name="CmpOperator" value="0">
+		      <param name="CmpValue" value="0">
+		      <param name="ForeColor" value="0">
+		      <param name="BackColor" value="16777215">
+		      <param name="Border" value="0">
+		      <param name="HAlign" value="1">
+		      <param name="VAlign" value="1">
+		      <param name="Periodic" value="0">
+		      <param name="ViewType" value="0">
+		      <param name="TrueImage" value="">
+		      <param name="FalseImage" value="">
+		      <param name="IOSim" value="0">
+		      <param name="Pipe" value="">
+		      <param name="Invisible" value="">
+		      <param name="Disable" value="">
+		      <param name="RWAccess" value="0">
+		      <param name="TrueCaption" value="5">
+		      <param name="TrueStrColor" value="0">
+		      <param name="FalseStrColor" value="0">
+		      <param name="ValueStr" value="">
+		    </object>
+
+
+		<p align="center">															
+		    <object classid="clsid:71060668-0E45-11D3-81B6-0000E206D650" id="FRIPToggleLamp7" style="width: 83px; height: 39px;" class="auto-style2">
+		      <param name="Caption" value="e">
+		      <param name="FontSize" value="14">
+		      <param name="DataType" value="101">
+		      <param name="DataIndex" value="28">
+		      <param name="TrueColor" value="65280">
+		      <param name="FalseColor" value="255">
+		      <param name="Interval" value="250">
+		      <param name="TrueFont" value="-1">
+		      <param name="FastLoad" value="0">
+		
+		      <param name="FontName" value="Verdana">
+		      <param name="FontBold" value="0">
+		      <param name="FontItalic" value="0">
+		      <param name="FontWeight" value="400">
+		      <param name="FontUnderline" value="0">
+		      <param name="FontStrikethrough" value="0">
+		      <param name="FontCharSet" value="0">
+		      <param name="Type" value="0">
+		      <param name="CmpOperator" value="0">
+		      <param name="CmpValue" value="0">
+		      <param name="ForeColor" value="0">
+		      <param name="BackColor" value="16777215">
+		      <param name="Border" value="0">
+		      <param name="HAlign" value="1">
+		      <param name="VAlign" value="1">
+		      <param name="Periodic" value="0">
+		      <param name="ViewType" value="0">
+		      <param name="TrueImage" value="">
+		      <param name="FalseImage" value="">
+		      <param name="IOSim" value="0">
+		      <param name="Pipe" value="">
+		      <param name="Invisible" value="">
+		      <param name="Disable" value="">
+		      <param name="RWAccess" value="0">
+		      <param name="TrueCaption" value="4">
+		      <param name="TrueStrColor" value="0">
+		      <param name="FalseStrColor" value="0">
+		      <param name="ValueStr" value="">
+		    </object>
+		<p align="center">															
+	    <object classid="clsid:71060668-0E45-11D3-81B6-0000E206D650" id="FRIPToggleLamp6" style="width: 180px; height: 40px;" class="auto-style2">
+	      <param name="Caption" value="e">
+	      <param name="FontSize" value="14">
+	      <param name="DataType" value="101">
+	      <param name="DataIndex" value="27">
+	      <param name="TrueColor" value="65280">
+	      <param name="FalseColor" value="255">
+	      <param name="Interval" value="250">
+	      <param name="TrueFont" value="-1">
+	      <param name="FastLoad" value="0">
+	
+	      <param name="FontName" value="Verdana">
+	      <param name="FontBold" value="0">
+	      <param name="FontItalic" value="0">
+	      <param name="FontWeight" value="400">
+	      <param name="FontUnderline" value="0">
+	      <param name="FontStrikethrough" value="0">
+	      <param name="FontCharSet" value="0">
+	      <param name="Type" value="0">
+	      <param name="CmpOperator" value="0">
+	      <param name="CmpValue" value="0">
+	      <param name="ForeColor" value="0">
+	      <param name="BackColor" value="16777215">
+	      <param name="Border" value="0">
+	      <param name="HAlign" value="1">
+	      <param name="VAlign" value="1">
+	      <param name="Periodic" value="0">
+	      <param name="ViewType" value="0">
+	      <param name="TrueImage" value="">
+	      <param name="FalseImage" value="">
+	      <param name="IOSim" value="0">
+	      <param name="Pipe" value="">
+	      <param name="Invisible" value="">
+	      <param name="Disable" value="">
+	      <param name="RWAccess" value="0">
+	      <param name="TrueCaption" value="3">
+	      <param name="TrueStrColor" value="0">
+	      <param name="FalseStrColor" value="0">
+	      <param name="ValueStr" value="">
+	    </object>
+																
+		<p align="center">
+																
+	    <object classid="clsid:71060668-0E45-11D3-81B6-0000E206D650" id="FRIPToggleLamp1" style="width: 59px; height: 126px;" class="auto-style2">
+	      <param name="Caption" value="e">
+	      <param name="FontSize" value="14">
+	      <param name="DataType" value="101">
+	      <param name="DataIndex" value="25">
+	      <param name="TrueColor" value="65280">
+	      <param name="FalseColor" value="255">
+	      <param name="Interval" value="250">
+	      <param name="TrueFont" value="-1">
+	      <param name="FastLoad" value="0">
+	
+	      <param name="FontName" value="Verdana">
+	      <param name="FontBold" value="0">
+	      <param name="FontItalic" value="0">
+	      <param name="FontWeight" value="400">
+	      <param name="FontUnderline" value="0">
+	      <param name="FontStrikethrough" value="0">
+	      <param name="FontCharSet" value="0">
+	      <param name="Type" value="0">
+	      <param name="CmpOperator" value="0">
+	      <param name="CmpValue" value="0">
+	      <param name="ForeColor" value="0">
+	      <param name="BackColor" value="16777215">
+	      <param name="Border" value="0">
+	      <param name="HAlign" value="1">
+	      <param name="VAlign" value="1">
+	      <param name="Periodic" value="0">
+	      <param name="ViewType" value="0">
+	      <param name="TrueImage" value="">
+	      <param name="FalseImage" value="">
+	      <param name="IOSim" value="0">
+	      <param name="Pipe" value="">
+	      <param name="Invisible" value="">
+	      <param name="Disable" value="">
+	      <param name="RWAccess" value="0">
+	      <param name="TrueCaption" value="1">
+	      <param name="TrueStrColor" value="0">
+	      <param name="FalseStrColor" value="0">
+	      <param name="ValueStr" value="">
+	    </object>
+	    
+		<span class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span>	
+																
+	    <object classid="clsid:71060668-0E45-11D3-81B6-0000E206D650" id="FRIPToggleLamp5" style="width: 59px; height: 126px;" class="auto-style2">
+	      <param name="Caption" value="e">
+	      <param name="FontSize" value="14">
+	      <param name="DataType" value="101">
+	      <param name="DataIndex" value="26">
+	      <param name="TrueColor" value="65280">
+	      <param name="FalseColor" value="255">
+	      <param name="Interval" value="250">
+	      <param name="TrueFont" value="-1">
+	      <param name="FastLoad" value="0">
+	
+	      <param name="FontName" value="Verdana">
+	      <param name="FontBold" value="0">
+	      <param name="FontItalic" value="0">
+	      <param name="FontWeight" value="400">
+	      <param name="FontUnderline" value="0">
+	      <param name="FontStrikethrough" value="0">
+	      <param name="FontCharSet" value="0">
+	      <param name="Type" value="0">
+	      <param name="CmpOperator" value="0">
+	      <param name="CmpValue" value="0">
+	      <param name="ForeColor" value="0">
+	      <param name="BackColor" value="16777215">
+	      <param name="Border" value="0">
+	      <param name="HAlign" value="1">
+	      <param name="VAlign" value="1">
+	      <param name="Periodic" value="0">
+	      <param name="ViewType" value="0">
+	      <param name="TrueImage" value="">
+	      <param name="FalseImage" value="">
+	      <param name="IOSim" value="0">
+	      <param name="Pipe" value="">
+	      <param name="Invisible" value="">
+	      <param name="Disable" value="">
+	      <param name="RWAccess" value="0">
+	      <param name="TrueCaption" value="2">
+	      <param name="TrueStrColor" value="0">
+	      <param name="FalseStrColor" value="0">
+	      <param name="ValueStr" value="">
+	    </object>
+	</div>
+</body>
+</html>
