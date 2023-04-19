@@ -8,7 +8,7 @@
 			TP_SCAN_ALL  
 			TP_PLC_MOVE  
 			TP_DROPBOX  
-	###$	TP_BUILD_MAIN  
+	####	TP_BUILD_MAIN  
 			TP_BUILD_SCAN  
 			TP_SCAN_AREA  
 
