@@ -2,11 +2,23 @@
 
 ## School Capstone  
 ### TABLE OF CONTENTS:  
+1. [INTRODUCTION](#introduction)  
+    1.1 [Project Description](#project-description)  
+    1.2 [Project Goals](#project-goals)  
+    1.3 [Project Objectives](#project-objectives)  
 1. [HMI PROGRAMS:](#HMI-PROGRAMS)  
 2. [EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-HMI-programs)   
-3. [TP PROGRAMS](#TP-PROGRAMS)  
+3. [TP PROGRAMS](#TP-PROGRAMS)   
+    3.1 [TP_MAIN](#TP_MAIN)  
+    3.2 [TP_BUILD_MAIN](#TP_BUILD_MAIN)  
+    3.3 [TP_BUILD_SCAN](#TP_BUILD_SCAN)  
+    3.4 [TP_SCAN_AREA](#TP_SCAN_AREA)  
+    3.5 [TP_PLC_FIND](#TP_PLC_FIND)  
+    3.6 [TP_PLC_SCAN](#TP_PLC_SCAN)  
+    3.7 [TP_PLC_MOVE](#TP_PLC_MOVE)  
+    3.8 [TP_PLC_DROPBOX](#TP_PLC_DROPBOX)  
 4. [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
-5. [MAIN PROGRAMS](#main-programs)  
+5. [MAIN PROGRAM](#main-program)  
 6. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
 7. [SORTING PIECES](#sorting-pieces)  
 8. [REGISTERS INFORMATION](#registers-information)  
@@ -14,7 +26,37 @@
   8.2 [String Registers](#string-registers)   
   8.3 [Position Registers](#position-registers)  
   8.4 [Global Digital I/O’s](#global-digital-ios)  
+---
+## INTRODUCTION:
+### Project Description:
 
+### Project Goals:
+
+>[x] Create a program that uses the camera to find a pieces on the conveyor and sort the pieces.  
+>> [x] move the robot to a specific position and scan the area for a sign to become the pick up point.  
+>> [x] move the robot to a specific position and scan the area for a sign to become the drop off point.  
+  
+>[x] Create a program that can build a house of blocks.   
+>> [x] move the robot to a specific position and scan the area for a 5 pieces to build a house with those pieces.  
+>> [x] pick up the pieces and move them to a specific position.  
+    
+>[x] Create a program for the Teach Pendant.    
+>> [x] Create a connection between the Teach Pendant and the PLC to read the I/O's state.   
+>> [x] Create a connection between the HMI and the Teach Pendant program to control the TP program execution.  
+>> [x] Create access to remote and auto mode using system variables to enable the Teach Pendant to control the robot in directly from the HMI program.   
+>> [x] Connect all the programs in one main program controlled by the HMI program.  
+  
+>>[  ] Create a program that can sort the pieces by color.  
+
+
+### Project Objectives:
+The main objectives are:   
+Learn how to use the camera to recognize an object, take the information provided by the robot and then use that information to sort the pieces or build a house with them.   
+  
+Using the Fanuc’s HMI software kit, explore the what can be possible to create for example an easy to use and powerful Control Menu.  
+  
+Create a communication between the robot and the PLC allow them to talk and interact in a synchronize way.  
+  
 ---  
 ## HMI PROGRAMS:
 >#### FANUC_BUILDER.stm
@@ -32,7 +74,7 @@ HTML, CSS, Javascript, IE, and the Fanuc's HMI Builder software.
 ---  
 ## EXAMPLES OF THE HMI PROGRAMS:  
    
-### Main Page  
+### Main Page
 This page contains the main menu that controls this project.  
 #### MAIN.stm  
 ![Main example page](MAINSTM.png)  
@@ -66,36 +108,36 @@ Teach Pendant and its Programming Language.
 
 ---
 
-Name: TP_MAIN  
+#### TP_MAIN  
 Program’s Information  
 This program controls what is executed from the Teach Pendant.  
   
-Name: TP_BUILD_MAIN  
+#### TP_BUILD_MAIN  
 Program’s Information  
 This is the control program to pick up pieces and build a house. First it calls for TP_BUILD_SCAN and waits for all the pieces to be found then organizes them on top of each other, making them look like a house and after that the program goes back to TP_MAIN.  
 If all the pieces are not found it will finish.  
   
-Name: TP_BUILD_SCAN  
+#### TP_BUILD_SCAN  
 Program’s Information  
 This program was created just in case we need to do something special before the real scan happens, for now the only function of this program is to call TP_SCAN_AREA to get all the pieces. 
   
-Name: TP_SCAN_AREA  
+#### TP_SCAN_AREA  
 Program’s Information  
 In this program we look for 5 pieces on the scan area and record all their positions on the Vision Registers VR [1 to 5] for the TP_BUILD_MAIN to use. 
   
-Name: TP_PLC_FIND  
+#### TP_PLC_FIND  
 Program’s Information   
 The program cycle for picking  up a piece from the conveyor start here, the PLC waits for a signal from robot to start running the conveyor, if a piece is available the PLC signals the robot to call for TP_PLC_SCAN, once the robot finds the new piece using the camera, the robot arm will use its grippers to grab and move the found piece to the “drop area” finishing the program and going back to the TP_MAIN program, all this is done using the sub programs below.  
   
-Name: TP_PLC_SCAN  
+#### TP_PLC_SCAN  
 Program’s Information  
 This program tries to find a piece on the conveyor by scanning the area, if a piece is found, its position will be saved on the Vision Register VR [2] otherwise the scanning ends. 
   
-Name: TP_PLC_ MOVE  
+#### TP_PLC_ MOVE  
 Program’s Information  
 The main function of this program is to pick up the found piece from the conveyor using the stored position, after this process the TP_PLC_ DROPBOX will be called. 
   
-Name: TP_PLC_ DROPBOX  
+#### TP_PLC_ DROPBOX  
 Program’s Information  
 This program is designed to move the found piece to a programmed position using position registers, then the robot will scan for a bar code that is placed on top of the drop off box, if the box is not found then the arm will just let the piece go opening the gripper on that last spot. 
   
