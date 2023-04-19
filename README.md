@@ -2,15 +2,15 @@
 
 ## School Capstone
 
-TP  PROGRAM:
-	TP_MAIN
-		TP_PLC_ FIND
-			TP_SCAN_ALL
-			TP_PLC_MOVE
-			TP_DROPBOX
-		TP_BUILD_MAIN
-			TP_BUILD_SCAN
-			TP_SCAN_AREA
+### TP  PROGRAM: 
+ TP_MAIN 
+		TP_PLC_ FIND 
+			TP_SCAN_ALL 
+			TP_PLC_MOVE 
+			TP_DROPBOX 
+		TP_BUILD_MAIN 
+			TP_BUILD_SCAN 
+			TP_SCAN_AREA 
 
 Name: TP_MAIN
 Program Information
