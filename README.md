@@ -1,8 +1,8 @@
 # Fanuc-Robot-MateLR-200iD-4S
 
 ## School Capstone  
-[HMI PROGRAMS:](#HMI-PROGRAMS:)
-[Examples of the HMI programs](#Examples-of-the-HMI-programs)  
+[HMI PROGRAMS:](#HMI-PROGRAMS:)  
+[Examples of the HMI programs](#Examples-of-the-HMI-programs)   
 [TP PROGRAMS:](#TP-PROGRAMS:)
 TP  PROGRAMS
 ---  
