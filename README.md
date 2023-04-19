@@ -2,11 +2,8 @@
 
 ## School Capstone  
 [HMI PROGRAMS:](#HMI-PROGRAMS:)  
-  
 [Examples of the HMI programs](#Examples-of-the-HMI-programs)   
-  
-[TP PROGRAMS:](#TP-PROGRAMS:)
-TP  PROGRAMS
+[TP PROGRAMS](#TP-PROGRAMS)
 ---  
 ## HMI PROGRAMS:
 >#### FANUC_BUILDER.stm
