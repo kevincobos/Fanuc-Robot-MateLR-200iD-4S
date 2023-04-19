@@ -2,7 +2,17 @@
 
 ## School Capstone
 
-### TP  PROGRAM: 
+---
+### HMI PROGRAMS:
+>#### FANUC_BUILDER.stm
+>> SIMPLEFINDER.stm
+>> SETUP.stm
+>> ABOUT.stm
+---
+#### SETUP.stm
+
+---
+### TP  PROGRAMS: 
 >#### TP_MAIN  
 > TP_PLC_ FIND  
 >> TP_SCAN_ALL  
