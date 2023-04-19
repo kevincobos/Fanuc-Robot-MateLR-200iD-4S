@@ -13,6 +13,7 @@
 >> TP_BUILD_SCAN  
 >> TP_SCAN_AREA  
 
+---
 Name: TP_MAIN  
 Program Information
 This program controls what is executed from the Teach Pendant
