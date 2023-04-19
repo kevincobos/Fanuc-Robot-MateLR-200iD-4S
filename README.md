@@ -7,7 +7,7 @@
 [TP PROGRAMS](#TP-PROGRAMS)  
 [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
 [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
-[SORTING PIECES](#sorting-pieces)
+[SORTING PIECES](#sorting-pieces)  
 [REGISTERS INFORMATION](#registers-information)  
 
 ---  
