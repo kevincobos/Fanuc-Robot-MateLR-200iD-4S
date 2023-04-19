@@ -5,12 +5,12 @@
 ---
 ### HMI PROGRAMS:
 >#### FANUC_BUILDER.stm
->> SIMPLEFINDER.stm
->> SETUP.stm
->> ABOUT.stm
+>> SIMPLEFINDER.stm  
+>> SETUP.stm  
+>> ABOUT.stm  
 ---
 #### SETUP.stm
-
+![Screenshot](SETUP.png)
 ---
 ### TP  PROGRAMS: 
 >#### TP_MAIN  
