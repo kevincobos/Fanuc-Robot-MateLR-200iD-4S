@@ -6,13 +6,14 @@
 2. [EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-HMI-programs)   
 3. [TP PROGRAMS](#TP-PROGRAMS)  
 4. [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
-5. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
-6. [SORTING PIECES](#sorting-pieces)  
-7. [REGISTERS INFORMATION](#registers-information)  
-  7.1 [Integer Registers](#integer-registers)    
-  7.2 [String Registers](#string-registers)   
-  7.3 [Position Registers](#position-registers)  
-  7.4 [Global Digital I/O’s](#global-digital-ios)  
+5. [MAIN PROGRAMS](#main-programs)  
+6. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
+7. [SORTING PIECES](#sorting-pieces)  
+8. [REGISTERS INFORMATION](#registers-information)  
+  8.1 [Integer Registers](#integer-registers)    
+  8.2 [String Registers](#string-registers)   
+  8.3 [Position Registers](#position-registers)  
+  8.4 [Global Digital I/O’s](#global-digital-ios)  
 
 ---  
 ## HMI PROGRAMS:
