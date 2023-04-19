@@ -1,6 +1,10 @@
 # Fanuc-Robot-MateLR-200iD-4S
 
 ## School Capstone  
+[HMI PROGRAMS:](#HMI-PROGRAMS:)
+[Examples of the HMI programs](#Examples-of-the-HMI-programs)  
+[TP PROGRAMS:](#TP-PROGRAMS:)
+TP  PROGRAMS
 ---  
 ## HMI PROGRAMS:
 >#### FANUC_BUILDER.stm
@@ -8,6 +12,7 @@
 >> SETUP.stm  
 >> ABOUT.stm  
 ### Languages and tools used for this part of the project:
+HTML, CSS, Javascript, IE, and the Fanuc's HMI Builder software.
 <p align="center">
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="css" height="40" style="vertical-align:top; margin:4px">
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" height="40" style="vertical-align:top; margin:4px">
@@ -15,16 +20,27 @@
 </p>  
 
 ---  
-### Example of the HMI program:  
-#### MAIN.stm
+## Examples of the HMI programs  
+   
+### Main Page  
+This page contains the main menu that controls this project.  
+#### MAIN.stm  
 ![Main example page](MAINSTM.png)  
-#### SETUP.stm
+
+### Building Page  
+This page contains a representation of the house pieces.  
+Red means the piece is missing.  
+Green means the piece was found and the position was recorded.  
+#### SETUP.stm  
 ![Setup example page](SETUPSTM.png)  
+  
+### About Page  
+This page contains information about the developers of this project and there is a QR Code that can be scanned to see the code online.  
 #### ABOUT.stm
 ![About example page](ABOUTSTM.png)  
 
 ---  
-## TP  PROGRAMS: 
+## TP PROGRAMS: 
 
 >#### TP_MAIN  
 > TP_PLC_ FIND  
@@ -35,6 +51,9 @@
 > TP_BUILD_MAIN  
 >> TP_BUILD_SCAN  
 >> TP_SCAN_AREA  
+### Languages and tools used for this part of the project:  
+Teach Pendant and its Programming Language.  
+
 ---
 
 Name: TP_MAIN  
@@ -73,7 +92,7 @@ This program is designed to move the found piece to a programmed position using 
 ### At the end of this document, you can see all the registers, their values and information corresponding to their use on this program. 
 
 ---  
-### How to use the control menu on the Teach Pendant  
+## How to use the control menu on the Teach Pendant  
   
 1.  Controls the Auto or Remote state of the robot  
   
@@ -100,8 +119,36 @@ This program is designed to move the found piece to a programmed position using 
   
 #### Below are the pictures and their corresponding numbers.  
 ![CONTROL](CONTROLMENU.png) 
-   
+--- 
+## Main Program 
+After reading all the warnings and having an idea of what our project does, we can start with the first program.  
+For the project to work, the Robot’s Computer must be on Auto and Teach pendant OFF, and all errors must be cleared off.   
+1. Robot must be in REMOTE mode.  
+2. Start the TP_MAIN program.  
+  
+## Building a House of Blocks  
+1. Place all 5 pieces on the area marked as Scan area. Please make sure each piece is at least 1 and ½ inches apart to avoid damaging the robot’s grippers. There are 5 marks for a better idea of where to place each piece.  
+2. On the menu click on BUILD and watch the robot build a house of blocks.   
+![Building](EXAMPLEHOUSE.png)  
+After the robot finishes the house, it will wait for the next instruction.  
+![Building a house of blocks](EXAMPLEHOUSECYCLE.png)  
+We can check what pieces have been found by looking at the building page.  
+![Checking pieces that were found](SETUPSTM.png) 
+---
+## Sorting pieces using the PLC  
+1. Place piece on the place area.  
+2. Select SINGLE or LOOP cycle and wait for cycle to start.   
+Please place the box used to sort the pieces on the top of DROP BOX sign, there is an example below. 
+![Checking pieces that were found](EXAMPLEPLCDROPBOX.png)  
+  
+### What does the cycle do?  
+  
+Once the piece is place on the “Place area” the conveyor moves it to the “Scan area,” the robot camera will try to find the piece and move it to the “Drop area,” again the robot will use the camera to find the box position and orientation, then drop the found piece in the correct compartment.  
+![Checking pieces that were found](EXAMPLEPLCCYCLE.png)  
 
+---
+  
+## REGISTER INFORMATION:
 ### Register Integer → R[]
 |     Group Variable  |   Caption        |   Register Number  |   Value  |   Description                                                                                                                                                                 |
 |---------------------|------------------|--------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
