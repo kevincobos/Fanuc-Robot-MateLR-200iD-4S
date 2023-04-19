@@ -15,7 +15,7 @@
 </p>  
 
 ---  
-
+### Example of the HMI program:  
 #### MAIN.stm
 ![Main example page](MAINSTM.png)  
 #### SETUP.stm
@@ -50,8 +50,8 @@ Name: TP_BUILD_SCAN
 Program’s Information  
 This program was created just in case we need to do something special before the real scan happens, for now the only function of this program is to call TP_SCAN_AREA to get all the pieces. 
   
-Name: TP_SCAN_AREA 
-Program’s Information 
+Name: TP_SCAN_AREA  
+Program’s Information  
 In this program we look for 5 pieces on the scan area and record all their positions on the Vision Registers VR [1 to 5] for the TP_BUILD_MAIN to use. 
   
 Name: TP_PLC_FIND  
@@ -70,7 +70,7 @@ Name: TP_PLC_ DROPBOX
 Program’s Information  
 This program is designed to move the found piece to a programmed position using position registers, then the robot will scan for a bar code that is placed on top of the drop off box, if the box is not found then the arm will just let the piece go opening the gripper on that last spot. 
 
-Register Integer → R[]
+### Register Integer → R[]
 |     Group Variable  |   Caption        |   Register Number  |   Value  |   Description                                                                                                                                                                 |
 |---------------------|------------------|--------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     TP_PLC_DROPBOX  |   CAP_LOOP       |   1                |   0-4    |   Loop counter                                                                                                                                                                |
@@ -95,7 +95,7 @@ Register Integer → R[]
 |     TP_SCAN_AREA    |   found_build    |   30               |   0-5    |   Use by TP_SCAN_AREA to know if piece was found                                                                                                                              |
 |     TP_SCAN_AREA    |                  |   32               |   0-5    |   Use by TP_SCAN_AREA to count total pieces                                                                                                                                   |
 
-Program Strings → ST[]
+### Program Strings → ST[]
 |     Group Use      |   Caption          |   Value            |   ID  |   Description                                                |
 |--------------------|--------------------|--------------------|-------|--------------------------------------------------------------|
 |     TP_FIND_PLC    |   OBJ_PLC_1        |   OBJ_PLC_1        |   1   |   Object name for PLC scanner                                |
@@ -114,7 +114,7 @@ Program Strings → ST[]
 |     Simple Finder  |   OBJ_1_2D         |   Program Modify   |   25  |   Selecting Object 1 of 2D camera (green square)             |
 
 
-Posoition Registers → PR[]
+### Posoition Registers → PR[]
 |     Group Use        |   Caption           |   ID  |   Values          |   Description                                                        |
 |----------------------|---------------------|-------|-------------------|----------------------------------------------------------------------|
 |     General use      |   HOME              |   1   |   Recorded        |   User Frame and Camera was setup in this position                   |
@@ -138,7 +138,7 @@ Posoition Registers → PR[]
 |     Offset Position  |   cap_subtract_y50  |   46  |   Y = -50 Manual  |   Manually enter values                                              |
 
 
-Global Digital I/O’s
+### Global Digital I/O’s
 |     Group   |   Caption              |   ID   |   Values    |   Description                                                         |
 |-------------|------------------------|--------|-------------|-----------------------------------------------------------------------|
 |     INPUT   |   PLC_IN               |   101  |   ON – OFF  |   Comes from PLC -> If ON then a new object is ready to be picked up  |
