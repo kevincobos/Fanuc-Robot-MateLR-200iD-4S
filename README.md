@@ -1,12 +1,13 @@
 # Fanuc-Robot-MateLR-200iD-4S
 
 ## School Capstone  
+### TABLE OF CONTENTS:  
 [HMI PROGRAMS:](#HMI-PROGRAMS)  
 [EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-HMI-programs)   
 [TP PROGRAMS](#TP-PROGRAMS)  
 [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
-[ ](#)  
-[ ](#)  
+[BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
+[REGISTERS INFORMATION](#registers-information)  
 
 ---  
 ## HMI PROGRAMS:
@@ -123,13 +124,13 @@ This program is designed to move the found piece to a programmed position using 
 #### Below are the pictures and their corresponding numbers.  
 ![CONTROL](CONTROLMENU.png) 
 --- 
-## Main Program 
+## MAIN PROGRAM
 After reading all the warnings and having an idea of what our project does, we can start with the first program.  
 For the project to work, the Robot’s Computer must be on Auto and Teach pendant OFF, and all errors must be cleared off.   
 1. Robot must be in REMOTE mode.  
 2. Start the TP_MAIN program.  
   
-## Building a House of Blocks  
+## BUILDING A HOUSE OF BLOCKS  
 1. Place all 5 pieces on the area marked as Scan area. Please make sure each piece is at least 1 and ½ inches apart to avoid damaging the robot’s grippers. There are 5 marks for a better idea of where to place each piece.  
 2. On the menu click on BUILD and watch the robot build a house of blocks.   
 ![Building](EXAMPLEHOUSE.png)  
@@ -138,7 +139,7 @@ After the robot finishes the house, it will wait for the next instruction.
 We can check what pieces have been found by looking at the building page.  
 ![Checking pieces that were found](SETUPSTM.png) 
 ---
-## Sorting pieces using the PLC  
+## SORTING PIECES 
 1. Place piece on the place area.  
 2. Select SINGLE or LOOP cycle and wait for cycle to start.   
 Please place the box used to sort the pieces on the top of DROP BOX sign, there is an example below. 
@@ -151,7 +152,7 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 
 ---
   
-## REGISTER INFORMATION:
+## REGISTERS INFORMATION:
 ### Register Integer → R[]
 |     Group Variable  |   Caption        |   Register Number  |   Value  |   Description                                                                                                                                                                 |
 |---------------------|------------------|--------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
