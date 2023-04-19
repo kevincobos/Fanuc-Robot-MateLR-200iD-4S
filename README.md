@@ -1,27 +1,37 @@
 # Fanuc-Robot-MateLR-200iD-4S
 
-School Capstone
+## School Capstone
 
-TP  PROGRAM:
-	TP_MAIN
-		TP_PLC_ FIND
-			TP_SCAN_ALL
-			TP_PLC_MOVE
-			TP_DROPBOX
-		TP_BUILD_MAIN
-			TP_BUILD_SCAN
-			TP_SCAN_AREA
+### TP  PROGRAM: 
+>#### TP_MAIN  
+> TP_PLC_ FIND  
+>> TP_SCAN_ALL  
+>> TP_PLC_MOVE  
+>> TP_DROPBOX 
+ 
+> TP_BUILD_MAIN  
+>> TP_BUILD_SCAN  
+>> TP_SCAN_AREA  
+---
 
-Name: TP_MAIN
+## Languages and Tools:
+<p align="center">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="css" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="html" height="40" style="vertical-align:top; margin:4px">
+</p>
+
+
+Name: TP_MAIN  
 Program Information
 This program controls what is executed from the Teach Pendant
 
-Name: TP_BUILD_MAIN
+Name: TP_BUILD_MAIN  
 Program Information
 The program to pick build a house made of blocks start here, first it calls for TP_BUILD_SCAN and waits for all the pieces to be found then organize them on top of each other, making look like a house and finish. 
 If all pieces are not found it will finish
 
-Name: TP_BUILD_SCAN
+Name: TP_BUILD_SCAN  
 Program Information
 This is just in case we need to do something special before the real scan happens on our project, then calls for TP_SCAN_AREA to get all the pieces.
 
