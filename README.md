@@ -1,6 +1,6 @@
 # Fanuc-Robot-MateLR-200iD-4S
 
-School Capstone
+##School Capstone
 
 TP  PROGRAM:
 	TP_MAIN
