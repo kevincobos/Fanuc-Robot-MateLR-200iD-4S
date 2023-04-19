@@ -2,8 +2,12 @@
 
 ## School Capstone  
 [HMI PROGRAMS:](#HMI-PROGRAMS)  
-[Examples of the HMI programs](#Examples-of-the-HMI-programs)   
-[TP PROGRAMS](#TP-PROGRAMS)
+[EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-HMI-programs)   
+[TP PROGRAMS](#TP-PROGRAMS)  
+[HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
+[ ](#)  
+[ ](#)  
+
 ---  
 ## HMI PROGRAMS:
 >#### FANUC_BUILDER.stm
@@ -19,7 +23,7 @@ HTML, CSS, Javascript, IE, and the Fanuc's HMI Builder software.
 </p>  
 
 ---  
-## Examples of the HMI programs  
+## EXAMPLES OF THE HMI PROGRAMS:  
    
 ### Main Page  
 This page contains the main menu that controls this project.  
@@ -91,7 +95,7 @@ This program is designed to move the found piece to a programmed position using 
 ### At the end of this document, you can see all the registers, their values and information corresponding to their use on this program. 
 
 ---  
-## How to use the control menu on the Teach Pendant  
+## HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT
   
 1.  Controls the Auto or Remote state of the robot  
   
