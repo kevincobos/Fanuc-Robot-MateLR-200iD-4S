@@ -2,6 +2,13 @@
 
 ## School Capstone
 
+### Languages and tools used for this part of the project:
+<p align="center">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="css" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="html" height="40" style="vertical-align:top; margin:4px">
+</p>
+
 ---
 ### HMI PROGRAMS:
 >#### FANUC_BUILDER.stm
@@ -28,46 +35,38 @@
 >> TP_SCAN_AREA  
 ---
 
-## Languages and Tools:
-<p align="center">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="css" height="40" style="vertical-align:top; margin:4px">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" height="40" style="vertical-align:top; margin:4px">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="html" height="40" style="vertical-align:top; margin:4px">
-</p>
-
-
 Name: TP_MAIN  
-Program Information
-This program controls what is executed from the Teach Pendant
-
+Program’s Information  
+This program controls what is executed from the Teach Pendant.  
+  
 Name: TP_BUILD_MAIN  
-Program Information
-The program to pick build a house made of blocks start here, first it calls for TP_BUILD_SCAN and waits for all the pieces to be found then organize them on top of each other, making look like a house and finish. 
-If all pieces are not found it will finish
-
+Program’s Information  
+This is the control program to pick up pieces and build a house. First it calls for TP_BUILD_SCAN and waits for all the pieces to be found then organizes them on top of each other, making them look like a house and after that the program goes back to TP_MAIN.  
+If all the pieces are not found it will finish.  
+  
 Name: TP_BUILD_SCAN  
-Program Information
-This is just in case we need to do something special before the real scan happens on our project, then calls for TP_SCAN_AREA to get all the pieces.
-
-Name: TP_SCAN_AREA
-Program Information
-Will look for 5 pieces on the scan area and record all their positions for the TP_BUILD_MAIN to use it.
-
-Name: TP_PLC_FIND
-Program Information
-The program cycle for picking a piece from the conveyor start here, the PLC waits for signal from robot to move a piece from the “place area” to the “scan area”, then the PLC signals the robot to call for TP_PLC_SCAN, once the piece is found, it will be move to the “drop area”, turns OFF the DO[109] for 0.30 seconds to reset the conveyor restarting the process again
-
-Name: TP_SCAN_ALL
-Program Information
-Tries to find piece on the conveyor by scanning the area, if one piece is found 
-
-Name: TP_PLC_ MOVE
-Program Information
-Once piece is found the robots arm will go to the picking position, grabs it and moves to a program position then calls to TP_PLC_ DROPBOX
-
-Name: TP_PLC_ DROPBOX
-Program Information
-Moves to a programmed position and scans for a box bar code to drop the found piece, if the box is not found then the arm will just let the piece drop on this position.
+Program’s Information  
+This program was created just in case we need to do something special before the real scan happens, for now the only function of this program is to call TP_SCAN_AREA to get all the pieces. 
+  
+Name: TP_SCAN_AREA 
+Program’s Information 
+In this program we look for 5 pieces on the scan area and record all their positions on the Vision Registers VR [1 to 5] for the TP_BUILD_MAIN to use. 
+  
+Name: TP_PLC_FIND  
+Program’s Information   
+The program cycle for picking  up a piece from the conveyor start here, the PLC waits for a signal from robot to start running the conveyor, if a piece is available the PLC signals the robot to call for TP_PLC_SCAN, once the robot finds the new piece using the camera, the robot arm will use its grippers to grab and move the found piece to the “drop area” finishing the program and going back to the TP_MAIN program, all this is done using the sub programs below.  
+  
+Name: TP_PLC_SCAN  
+Program’s Information  
+This program tries to find a piece on the conveyor by scanning the area, if a piece is found, its position will be saved on the Vision Register VR [2] otherwise the scanning ends. 
+  
+Name: TP_PLC_ MOVE  
+Program’s Information  
+The main function of this program is to pick up the found piece from the conveyor using the stored position, after this process the TP_PLC_ DROPBOX will be called. 
+  
+Name: TP_PLC_ DROPBOX  
+Program’s Information  
+This program is designed to move the found piece to a programmed position using position registers, then the robot will scan for a bar code that is placed on top of the drop off box, if the box is not found then the arm will just let the piece go opening the gripper on that last spot. 
 
 Register Integer → R[]
 |     Group Variable  |   Caption        |   Register Number  |   Value  |   Description                                                                                                                                                                 |
