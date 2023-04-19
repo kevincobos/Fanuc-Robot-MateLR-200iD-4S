@@ -10,7 +10,7 @@
 >> ABOUT.stm  
 ---
 #### SETUP.stm
-![Screenshot](SETUP.png)
+![Setup example page](SETUPSTM.png)
 ---
 ### TP  PROGRAMS: 
 >#### TP_MAIN  
