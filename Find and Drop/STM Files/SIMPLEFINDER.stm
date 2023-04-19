@@ -1,7 +1,6 @@
 ﻿<html>
 <head>
 <title>SIMPLE FINDER</title>
-<meta http-equiv="Cache-Control" content="no-cache">
 <style>
 		img {
 		  max-width: 20%;
@@ -56,84 +55,79 @@
 						</td>
 						<td >
 		  					<div align="center">	
-		  					
-    <object classid="clsid:7106065C-0E45-11D3-81B6-0000E206D650" id="FRIPLabel1" style="width: 148px">
-      <param name="Caption" value="message">
-      <param name="FontSize" value="14">
-      <param name="DataType" value="112">
-      <param name="DataIndex" value="6">
-      <param name="Interval" value="250">
-      <param name="TrueFont" value="-1">
-      <param name="FastLoad" value="0">
+								<object classid="clsid:7106065C-0E45-11D3-81B6-0000E206D650" id="FRIPLabel1" style="width: 148px">
+									<param name="Caption" value="message">
+									<param name="FontSize" value="14">
+									<param name="DataType" value="112">
+									<param name="DataIndex" value="6">
+									<param name="Interval" value="250">
+									<param name="TrueFont" value="-1">
+									<param name="FastLoad" value="0">
 
-      <param name="FontName" value="Verdana">
-      <param name="FontBold" value="0">
-      <param name="FontItalic" value="0">
-      <param name="FontWeight" value="400">
-      <param name="FontUnderline" value="0">
-      <param name="FontStrikethrough" value="0">
-      <param name="FontCharSet" value="0">
-      <param name="ForeColor" value="0">
-      <param name="BackColor" value="16777215">
-      <param name="Border" value="0">
-      <param name="HAlign" value="1">
-      <param name="VAlign" value="1">
-      <param name="Periodic" value="0">
-      <param name="IOSim" value="0">
-      <param name="Pipe" value="">
-      <param name="Invisible" value="">
-      <param name="Disable" value="">
-      <param name="RWAccess" value="0">
+									<param name="FontName" value="Verdana">
+									<param name="FontBold" value="0">
+									<param name="FontItalic" value="0">
+									<param name="FontWeight" value="400">
+									<param name="FontUnderline" value="0">
+									<param name="FontStrikethrough" value="0">
+									<param name="FontCharSet" value="0">
+									<param name="ForeColor" value="0">
+									<param name="BackColor" value="16777215">
+									<param name="Border" value="0">
+									<param name="HAlign" value="1">
+									<param name="VAlign" value="1">
+									<param name="Periodic" value="0">
+									<param name="IOSim" value="0">
+									<param name="Pipe" value="">
+									<param name="Invisible" value="">
+									<param name="Disable" value="">
+									<param name="RWAccess" value="0">
+								</object>								
+								<object classid="clsid:2EA73C0F-6FB5-11D3-823F-0000E206D650" id="FRIPCommandButton1" >
+									<param name="Caption" value="STOP">
+									<param name="FontSize" value="14">
+									<param name="DataType" value="101">
+									<param name="DataIndex" value="22">
+									<param name="SetValue" value="4">
+									<param name="TrueFont" value="-1">
+									<param name="FastLoad" value="0">
 
-    </object>
-		  					
-    <object classid="clsid:2EA73C0F-6FB5-11D3-823F-0000E206D650" id="FRIPCommandButton1" >
-      <param name="Caption" value="STOP">
-      <param name="FontSize" value="14">
-      <param name="DataType" value="101">
-      <param name="DataIndex" value="22">
-      <param name="SetValue" value="4">
-      <param name="TrueFont" value="-1">
-      <param name="FastLoad" value="0">
-
-      <param name="FontName" value="Verdana">
-      <param name="FontBold" value="0">
-      <param name="FontItalic" value="0">
-      <param name="FontWeight" value="400">
-      <param name="FontUnderline" value="0">
-      <param name="FontStrikethrough" value="0">
-      <param name="FontCharSet" value="0">
-      <param name="Type" value="1">
-      <param name="ForeColor" value="0">
-      <param name="BackColor" value="255">
-      <param name="Border" value="0">
-      <param name="HAlign" value="1">
-      <param name="VAlign" value="1">
-      <param name="ViewType" value="0">
-      <param name="TrueColor" value="65280">
-      <param name="FalseColor" value="255">
-      <param name="TrueImage" value="">
-      <param name="FalseImage" value="">
-      <param name="Pulse" value="0">
-      <param name="PulseTime" value="100">
-      <param name="IOSim" value="0">
-      <param name="Pipe" value="">
-      <param name="Interval" value="250">
-      <param name="ReadOnly" value="">
-      <param name="Invisible" value="">
-      <param name="Disable" value="">
-      <param name="OverrideRO" value="0">
-      <param name="RWAccess" value="0">
-      <param name="ValueStr" value="">
-      <param name="ChkDeadman" value="0">
-      <param name="ChkTpEnable" value="0">
-      <param name="ChkShift" value="0">
-      <param name="ChkIo" value="0">
-      <param name="ChkIoType" value="0">
-      <param name="ChkIoIdx" value="0">
-
-    </object>
-		  					
+									<param name="FontName" value="Verdana">
+									<param name="FontBold" value="0">
+									<param name="FontItalic" value="0">
+									<param name="FontWeight" value="400">
+									<param name="FontUnderline" value="0">
+									<param name="FontStrikethrough" value="0">
+									<param name="FontCharSet" value="0">
+									<param name="Type" value="1">
+									<param name="ForeColor" value="0">
+									<param name="BackColor" value="255">
+									<param name="Border" value="0">
+									<param name="HAlign" value="1">
+									<param name="VAlign" value="1">
+									<param name="ViewType" value="0">
+									<param name="TrueColor" value="65280">
+									<param name="FalseColor" value="255">
+									<param name="TrueImage" value="">
+									<param name="FalseImage" value="">
+									<param name="Pulse" value="0">
+									<param name="PulseTime" value="100">
+									<param name="IOSim" value="0">
+									<param name="Pipe" value="">
+									<param name="Interval" value="250">
+									<param name="ReadOnly" value="">
+									<param name="Invisible" value="">
+									<param name="Disable" value="">
+									<param name="OverrideRO" value="0">
+									<param name="RWAccess" value="0">
+									<param name="ValueStr" value="">
+									<param name="ChkDeadman" value="0">
+									<param name="ChkTpEnable" value="0">
+									<param name="ChkShift" value="0">
+									<param name="ChkIo" value="0">
+									<param name="ChkIoType" value="0">
+									<param name="ChkIoIdx" value="0">
+								</object>
 		  					</div>
 		  				</td>
 					</tr>
@@ -444,7 +438,7 @@
 															      <param name="FontSize" value="14">
 															      <param name="DataType" value="101">
 															      <param name="DataIndex" value="22">
-															      <param name="SetValue" value="2">
+															      <param name="SetValue" value="0">
 															      <param name="TrueFont" value="-1">
 															      <param name="FastLoad" value="0">
 															
@@ -614,49 +608,49 @@
 													</tr>
 												</table>												
 											    <object classid="clsid:2EA73C0F-6FB5-11D3-823F-0000E206D650" id="FRIPCommandButton5" style="width: 288px" >
-											      <param name="Caption" value="STOP REMOTE">
-											      <param name="FontSize" value="14">
-											      <param name="DataType" value="101">
-											      <param name="DataIndex" value="22">
-											      <param name="SetValue" value="4">
-											      <param name="TrueFont" value="-1">
-											      <param name="FastLoad" value="0">
-											
-											      <param name="FontName" value="Verdana">
-											      <param name="FontBold" value="0">
-											      <param name="FontItalic" value="0">
-											      <param name="FontWeight" value="400">
-											      <param name="FontUnderline" value="0">
-											      <param name="FontStrikethrough" value="0">
-											      <param name="FontCharSet" value="0">
-											      <param name="Type" value="1">
-											      <param name="ForeColor" value="0">
-											      <param name="BackColor" value="255">
-											      <param name="Border" value="0">
-											      <param name="HAlign" value="1">
-											      <param name="VAlign" value="1">
-											      <param name="ViewType" value="0">
-											      <param name="TrueColor" value="65280">
-											      <param name="FalseColor" value="255">
-											      <param name="TrueImage" value="">
-											      <param name="FalseImage" value="">
-											      <param name="Pulse" value="0">
-											      <param name="PulseTime" value="100">
-											      <param name="IOSim" value="0">
-											      <param name="Pipe" value="">
-											      <param name="Interval" value="250">
-											      <param name="ReadOnly" value="">
-											      <param name="Invisible" value="">
-											      <param name="Disable" value="">
-											      <param name="OverrideRO" value="0">
-											      <param name="RWAccess" value="0">
-											      <param name="ValueStr" value="">
-											      <param name="ChkDeadman" value="0">
-											      <param name="ChkTpEnable" value="0">
-											      <param name="ChkShift" value="0">
-											      <param name="ChkIo" value="0">
-											      <param name="ChkIoType" value="0">
-											      <param name="ChkIoIdx" value="0">									   
+													<param name="Caption" value="STOP REMOTE">
+													<param name="FontSize" value="14">
+													<param name="DataType" value="101">
+													<param name="DataIndex" value="22">
+													<param name="SetValue" value="4">
+													<param name="TrueFont" value="-1">
+													<param name="FastLoad" value="0">
+												
+													<param name="FontName" value="Verdana">
+													<param name="FontBold" value="0">
+													<param name="FontItalic" value="0">
+													<param name="FontWeight" value="400">
+													<param name="FontUnderline" value="0">
+													<param name="FontStrikethrough" value="0">
+													<param name="FontCharSet" value="0">
+													<param name="Type" value="1">
+													<param name="ForeColor" value="0">
+													<param name="BackColor" value="255">
+													<param name="Border" value="0">
+													<param name="HAlign" value="1">
+													<param name="VAlign" value="1">
+													<param name="ViewType" value="0">
+													<param name="TrueColor" value="65280">
+													<param name="FalseColor" value="255">
+													<param name="TrueImage" value="">
+													<param name="FalseImage" value="">
+													<param name="Pulse" value="0">
+													<param name="PulseTime" value="100">
+													<param name="IOSim" value="0">
+													<param name="Pipe" value="">
+													<param name="Interval" value="250">
+													<param name="ReadOnly" value="">
+													<param name="Invisible" value="">
+													<param name="Disable" value="">
+													<param name="OverrideRO" value="0">
+													<param name="RWAccess" value="0">
+													<param name="ValueStr" value="">
+													<param name="ChkDeadman" value="0">
+													<param name="ChkTpEnable" value="0">
+													<param name="ChkShift" value="0">
+													<param name="ChkIo" value="0">
+													<param name="ChkIoType" value="0">
+													<param name="ChkIoIdx" value="0">									   
 											    </object>
 						  					</td>
 										</tr>
