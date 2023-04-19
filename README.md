@@ -1,7 +1,7 @@
 # Fanuc-Robot-MateLR-200iD-4S
 
 ## School Capstone
----
+---  
 ### HMI PROGRAMS:
 >#### FANUC_BUILDER.stm
 >> SIMPLEFINDER.stm  
@@ -13,15 +13,16 @@
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" height="40" style="vertical-align:top; margin:4px">
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="html" height="40" style="vertical-align:top; margin:4px">
 </p>
----
+---  
 #### MAIN.stm
-![Main example page](MAINSTM.png)
+![Main example page](MAINSTM.png)  
 #### SETUP.stm
-![Setup example page](SETUPSTM.png)
+![Setup example page](SETUPSTM.png)  
 #### ABOUT.stm
-![About example page](ABOUTSTM.png)
+![About example page](ABOUTSTM.png) 
 ---
 ### TP  PROGRAMS: 
+
 >#### TP_MAIN  
 > TP_PLC_ FIND  
 >> TP_SCAN_ALL  
