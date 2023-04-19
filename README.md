@@ -9,8 +9,12 @@
 >> SETUP.stm  
 >> ABOUT.stm  
 ---
+#### MAIN.stm
+![Main example page](MAINSTM.png)
 #### SETUP.stm
 ![Setup example page](SETUPSTM.png)
+#### ABOUT.stm
+![About example page](ABOUTSTM.png)
 ---
 ### TP  PROGRAMS: 
 >#### TP_MAIN  
