@@ -2,13 +2,17 @@
 
 ## School Capstone  
 ### TABLE OF CONTENTS:  
-[HMI PROGRAMS:](#HMI-PROGRAMS)  
-[EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-HMI-programs)   
-[TP PROGRAMS](#TP-PROGRAMS)  
-[HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
-[BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
-[SORTING PIECES](#sorting-pieces)  
-[REGISTERS INFORMATION](#registers-information)  
+1. [HMI PROGRAMS:](#HMI-PROGRAMS)  
+2. [EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-HMI-programs)   
+3. [TP PROGRAMS](#TP-PROGRAMS)  
+4. [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
+5. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
+6. [SORTING PIECES](#sorting-pieces)  
+7. [REGISTERS INFORMATION](#registers-information) 
+  7.1 [Integer Registers](#integer-registers)  
+  7.2 [String Registers](#string-registers) 
+  7.3 [Position Registers](#position-registers)
+  7.4 [Global Digital I/O’s](#global-digital-ios)
 
 ---  
 ## HMI PROGRAMS:
@@ -154,7 +158,7 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 ---
   
 ## REGISTERS INFORMATION:
-### Register Integer → R[]
+### Integer Register → R[]
 |     Group Variable  |   Caption        |   Register Number  |   Value  |   Description                                                                                                                                                                 |
 |---------------------|------------------|--------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     TP_PLC_DROPBOX  |   CAP_LOOP       |   1                |   0-4    |   Loop counter                                                                                                                                                                |
@@ -179,7 +183,7 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 |     TP_SCAN_AREA    |   found_build    |   30               |   0-5    |   Use by TP_SCAN_AREA to know if piece was found                                                                                                                              |
 |     TP_SCAN_AREA    |                  |   32               |   0-5    |   Use by TP_SCAN_AREA to count total pieces                                                                                                                                   |
 
-### Program Strings → ST[]
+### Strings Registers → ST[]
 |     Group Use      |   Caption          |   Value            |   ID  |   Description                                                |
 |--------------------|--------------------|--------------------|-------|--------------------------------------------------------------|
 |     TP_FIND_PLC    |   OBJ_PLC_1        |   OBJ_PLC_1        |   1   |   Object name for PLC scanner                                |
@@ -198,7 +202,7 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 |     Simple Finder  |   OBJ_1_2D         |   Program Modify   |   25  |   Selecting Object 1 of 2D camera (green square)             |
 
 
-### Posoition Registers → PR[]
+### Posoition Registers  → PR[]
 |     Group Use        |   Caption           |   ID  |   Values          |   Description                                                        |
 |----------------------|---------------------|-------|-------------------|----------------------------------------------------------------------|
 |     General use      |   HOME              |   1   |   Recorded        |   User Frame and Camera was setup in this position                   |
