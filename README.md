@@ -307,3 +307,11 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
        
   [Download the 3D models to print here](https://www.thingiverse.com/thing:5981459)  
 ---
+
+## CONCLUSION   
+  
+In conclusion, this project demonstrates the powerful capabilities of robotic automation technology in the manufacturing industry. Through the use of a Fanuc robot arm, advanced camera technology, and a user-friendly HMI program, we have created a system that is fast, reliable, and efficient. The ability of the robot arm to pick and sort pieces from a conveyor and build a house with blocks is a testament to the versatility and adaptability of these machines limited just by our creativity.
+
+Additionally, the development of the customizable 3D model part for the Fanuc robot arm allows for further customization and optimization of the robot's capabilities. This project has showcased just a few of the infinite possibilities that can be achieved with these systems and technologies.
+
+Overall, the achievements of this project represent a significant step forward in the field of robotic automation and demonstrate the potential for increased efficiency, productivity, and scalability. The future of manufacturing is here, and it is automated. 
