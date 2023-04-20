@@ -19,12 +19,14 @@
 5. [MAIN PROGRAM](#main-program)  
 6. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
 7. [SORTING PIECES](#sorting-pieces)  
+  7.1 [what does the cycle do?](#what-does-the-cycle-do)
 8. [REGISTERS INFORMATION](#registers-information)  
   8.1 [Integer Registers](#integer-register-r)    
   8.2 [String Registers](#strings-registers-st)   
   8.3 [Position Registers](#posoition-registers-pr)  
   8.4 [Global Digital I/O’s](#global-digital-ios)  
 9. [3D PRINTED PARTS](#3d-printed-parts)
+  9.1 [Download the 3D printed parts](#download-the-3d-printed-parts)
 10. [CONCLUSION](#conclusion) 
 
 ---
@@ -156,7 +158,7 @@ The main function of this program is to pick up the found piece from the conveyo
 Program’s Information  
 This program is designed to move the found piece to a programmed position using position registers, then the robot will scan for a bar code that is placed on top of the drop off box, if the box is not found then the arm will just let the piece go opening the gripper on that last spot. 
   
-### At the end of this document, you can see all the registers, their values and information corresponding to their use on this program. 
+   ***At the end of this document, you can see all the registers, their values and corresponding information  about the use of them on this program.***  
 
 ---  
 ## HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT
@@ -305,7 +307,7 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 |     BOTTOM        |   2          |   These parts go in the middle allowing us to gaing pressure and space to grab biger pieces.                |
 |     BOOTH      |   2          |         These parts act like little booths allowing us to move them around and adjusting the grippers reach.            | 
        
-  [Download the 3D models to print here](https://www.thingiverse.com/thing:5981459)  
+### [Download the 3D models to print here](https://www.thingiverse.com/thing:5981459)  
 ---
 
 ## CONCLUSION   
