@@ -4,8 +4,8 @@
     1.1 [Project Description](#project-description)  
     1.2 [Project Goals](#project-goals)  
     1.3 [Project Objectives](#project-objectives)  
-2. [HMI PROGRAMS:](#HMI-PROGRAMS)  
-3. [EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-HMI-programs)   
+2. [HMI PROGRAMS:](#hmi-programs)  
+3. [EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-hmi-programs)   
   3.1 [IDEA FOR THE HMI PROGRAM](#hmi-idea-on-paper)   
 4. [TP PROGRAMS](#TP-PROGRAMS)   
     4.1 [TP_MAIN](#TP_MAIN)  
@@ -19,7 +19,7 @@
 5. [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
 6. [MAIN PROGRAM](#main-program)  
 7. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
-8. [IDEA FOR THE SORTING PROGRAM](#idea-for-the-sorting-program)  
+8. [IDEAS FOR THE SORTING PROGRAM](#ideas-for-the-sorting-program)  
 9. [SORTING PIECES](#sorting-pieces)  
   9.1 [what does the cycle do?](#what-does-the-cycle-do)  
 10. [REGISTERS INFORMATION](#registers-information)   
@@ -77,7 +77,7 @@ This project description was generated using chatGPT and modified by a human.
 >> Learn about differnt ways to create a communication between the robot and the PLC allowing them to talk and interact in a synchronize way.  
   
 ---  
-## HMI PROGRAMS:
+## HMI PROGRAMS:  
 >#### FANUC_BUILDER.stm
 >> SIMPLEFINDER.stm  
 >> SETUP.stm  
@@ -91,7 +91,7 @@ HTML, CSS, Javascript, IE, and the Fanuc's HMI Builder software.
 </p>  
 
 ---  
-## EXAMPLES OF THE HMI PROGRAMS:  
+## EXAMPLES OF THE HMI PROGRAMS  
    
 ### ***Main Page  and Objects Sorter Page***    
 FANUC_BUILDER.stm is the main page of this project, by default it displays SIMPLEFINDER.stm but using the tabs menu the user can switch to SETUP.stm and ABOUT.stm.  
@@ -214,11 +214,12 @@ We can check what pieces have been found by looking at the building page.
 ---
 
     
-#### IDEAS OF THE SORTING PROGRAM   
+## IDEAS FOR THE SORTING PROGRAM   
+Since the cameras are very sensitive to light, we decided to use a bar code to identify the pieces and sort them or get information of the object detected. The bar code will be placed on top of the object, the robot will scan the bar code and move the piece to the correct compartment.
   
 ![IDEA OF THE SCANNING CODE PROGRAM ON PAPER](./Main/Images/IDEASCANCODE.png)  
   
-![IDEA OF THE SORTING PROGRAM ON PAPER](./Main/Images/IDEASORTINGBOX.png)  
+![IDEA OF THE SORTING PRO GRAM ON PAPER](./Main/Images/IDEASORTINGBOX.png)  
   
 ## SORTING PIECES 
 1. Place piece on the place area.  
