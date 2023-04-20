@@ -28,7 +28,7 @@
   10.3 [Position Registers](#posoition-registers-pr)   
   10.4 [Global Digital I/O’s](#global-digital-ios)  
 11. [3D PRINTED PARTS](#3d-printed-parts)  
-  11.1 [Download the 3D printed parts](#download-the-3d-printed-parts)  
+  11.1 [Download the 3D printed parts](#download-the-3d-models-to-print-here)  
 12. [CONCLUSION](#conclusion)   
 
 ---
