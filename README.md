@@ -47,18 +47,18 @@ This project description was generated using chatGPT and modified by a human.
 ### Project Goals:
 
 >[x] Create a program that uses a mounted camera to find a piece on the conveyor and classify it.  
->> [x] move the robot to a specific position and scan the area for a sign to become the pick up point.  
->> [x] move the robot to a specific position and scan the area for a sign to become the drop off point.  
+>> [x] Move the robot to a specific position and scan the area for a sign to become the pick up point.  
+>> [x] Move the robot to a specific position and scan the area for a sign to become the drop off point.  
   
 >[x] Create a program that can build a house of blocks.   
->> [x] move the robot to a specific position and scan the area for a 5 pieces to build a house with those pieces.  
->> [x] pick up the pieces and move them to a specific position.  
+>> [x] Move the robot to a specific position and scan the area for 5 pieces to build a house with those pieces.  
+>> [x] Pick up the pieces and move them to a specific position.  
     
 >[x] Create a program for the Teach Pendant.    
->> [x] Create a connection between the Teach Pendant and the PLC to read the I/O's state.   
->> [x] Create a connection between the HMI and the Teach Pendant program to control the TP program execution.  
->> [x] Create access to remote and auto mode using system variables to enable the Teach Pendant to control the robot in directly from the HMI program.   
->> [x] Connect all the programs in one main program controlled by the HMI program.  
+>> [x] Create a connection between the Teach Pendant and the PLC to read the digital I/O's state of them and use those values later on the project.   
+>> [x] Create a connection between the HMI and the Teach Pendant program to control the  its execution.  
+>> [x] Add access to remote and auto mode using system variables to enable the Teach Pendant to control the robot in directly from the HMI program.   
+>> [x] Connect all the TP programs and HMI pages in one main program controlled by the HMI main program.  
   
 >>[  ] Create a program that can sort the pieces by color.  
 
