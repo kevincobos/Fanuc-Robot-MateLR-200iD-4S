@@ -28,19 +28,22 @@
 10. [CONCLUSION](#conclusion) 
 
 ---
-## INTRODUCTION:
+## INTRODUCTION:. 
+Our latest automation system is an exciting project that showcases the potential of advanced technologies and programming. This product has been specifically designed to highlight the capabilities of Fanuc's iRVision camera technology and user-friendly HMI interface. It's perfect for those who are interested in learning about automation systems and the endless possibilities they offer.  
+  
+This introduction was generated using chatGPT. 
+  
 ### Project Description:  
-Introducing the ultimate automation solution for your production line - a cutting-edge program that harnesses the power of robotics and camera technology to optimize your operations. This program controls a robot arm that can pick pieces from a conveyor and move them to a drop-off point with unmatched precision and efficiency, thanks to its advanced camera technology known as iRVision.  
+Our automation system is a sophisticated solution that demonstrates the potential of advanced technologies and programming. The system is built around a robot arm that is controlled by our program, which can pick pieces from a conveyor and move them to a drop-off box with exceptional accuracy and efficiency. The program uses iRVision camera technology, which is fast, reliable, and capable of classifying and identifying the location and orientation of the pieces. This technology enables the robot arm to easily and accurately pick up the pieces and transport them to the drop-off box, which can be rotated to any degree or moved within a three-inch radius.  
   
-iRVision is a fast and reliable camera system that can classify the pieces and identify their location and orientation. This allows the robot arm to easily and accurately pick up the pieces and move them to the drop-off box, which can be rotated to any degree or moved within a three-inch radius.  
+In addition to the basic functionality, our program includes the ability to build a house out of blocks. By using the same camera technology, our program can find and record the location of five pieces, which are then use to build a structure in a pre-programmed position on the user frame. This additional feature demonstrates the versatility of the system and provides added value to our classmates by giving them a powerful knowledge of these tools that can be used in a wide range of applications.  
   
-But that's not all - this program also features a user-friendly HMI interface that allows even those with little technical knowledge to interact with the program directly. With its intuitive interface, this HMI program allows you to control the robot arm and adjust settings without having to understand the complex background of the TP programs.  
+Our system is designed to be user-friendly and accessible to anyone interested in learning about automation systems. The HMI interface allows users to control our program and adjust settings with ease, without the need for extensive technical knowledge. Additionally, the program includes toggle buttons that enable users to turn on or off an alarm when an object is found, turn on a LED laser to view the camera's position, and bypass the signal coming from the PLC for testing purposes.  
   
-The HMI program also includes added functionality through toggle buttons, allowing you to turn on or off an alarm when an object is found or turn on a LED laser to see where the camera is positioned at all times. For testing purposes, the HMI program also includes a toggle button to bypass the signal coming from the PLC.  
+In summary, our automation system is an exciting project that showcases the endless possibilities of advanced technologies and programming. With advanced iRVision camera technology, a user-friendly HMI interface, our system provides a powerful tool for anyone interested in learning about automation systems.  
   
-Experience the power of automation with this program and take your production line to the next level. With its advanced iRVision camera technology and user-friendly HMI interface, you'll be able to streamline your operations and increase your productivity like never before.  
+This project description was generated using chatGPT and modified by a human.  
   
-This introduction was generated using chatGPT.  
 ### Project Goals:
 
 >[x] Create a program that uses a mounted camera to find a piece on the conveyor and classify it.  
