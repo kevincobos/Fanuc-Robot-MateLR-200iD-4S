@@ -88,7 +88,7 @@ HTML, CSS, Javascript, IE, and the Fanuc's HMI Builder software.
 ---  
 ## EXAMPLES OF THE HMI PROGRAMS:  
    
-### ***Main Page  and Objects sorter***    
+### ***Main Page  and Objects Sorter Page***    
 FANUC_BUILDER.stm is the main page of this project, by default it displays SIMPLEFINDER.stm but using the tabs menu the user can switch to SETUP.stm and ABOUT.stm.  
 SIMPLEFINDER.stm contains the main menu that controls this project.
 #### FANUC_BUILDER.stm  and SIMPLEFINDER.stm together
@@ -103,7 +103,7 @@ Green means the piece was found and the position was recorded.
   
 ### ***About Page***     
 This page contains information about the team members of this project and there is a QR Code that can be scanned to see the code online.  
-### ABOUT.stm
+#### ABOUT.stm
 ![About example page](./Main/Images/ABOUTSTM.png)  
 
 ---  
