@@ -30,13 +30,15 @@
 ---
 ## INTRODUCTION:
 ### Project Description:  
-Introducing the latest innovation in automation technology: a program that controls a robot arm to pick pieces from a conveyor and move them to a drop-off point with unprecedented accuracy and efficiency. With this system, you can ensure that your production line is running smoothly and efficiently, without the need for manual labor or intervention.  
+Introducing the ultimate automation solution for your production line - a cutting-edge program that harnesses the power of robotics and camera technology to optimize your operations. This program controls a robot arm that can pick pieces from a conveyor and move them to a drop-off point with unmatched precision and efficiency, thanks to its advanced camera technology known as iRVision.  
   
-The program utilizes a mounted camera that can classify the pieces and identify their position and orientation, making it easy for the robot arm to pick them up and move them to the drop-off box. The same camera is also used to locate the drop-off box, which can be rotated to any degree or moved within a radius of three inches.  
+iRVision is a fast and reliable camera system that can classify the pieces and identify their location and orientation. This allows the robot arm to easily and accurately pick up the pieces and move them to the drop-off box, which can be rotated to any degree or moved within a three-inch radius.  
   
-With this program, you can optimize your production line and streamline your operations. The robot arm can work around the clock without rest, reducing the need for manual labor and increasing productivity. Plus, with its precision and accuracy, you can be confident that your products will meet your exact specifications and requirements.  
+But that's not all - this program also features a user-friendly HMI interface that allows even those with little technical knowledge to interact with the program directly. With its intuitive interface, this HMI program allows you to control the robot arm and adjust settings without having to understand the complex background of the TP programs.  
   
-Experience the power of automation with this program and take your production line to the next level.  
+The HMI program also includes added functionality through toggle buttons, allowing you to turn on or off an alarm when an object is found or turn on a LED laser to see where the camera is positioned at all times. For testing purposes, the HMI program also includes a toggle button to bypass the signal coming from the PLC.  
+  
+Experience the power of automation with this program and take your production line to the next level. With its advanced iRVision camera technology and user-friendly HMI interface, you'll be able to streamline your operations and increase your productivity like never before.  
   
 This introduction was generated using chatGPT.  
 ### Project Goals:
