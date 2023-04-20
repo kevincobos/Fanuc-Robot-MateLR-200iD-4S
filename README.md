@@ -4,30 +4,32 @@
     1.1 [Project Description](#project-description)  
     1.2 [Project Goals](#project-goals)  
     1.3 [Project Objectives](#project-objectives)  
-1. [HMI PROGRAMS:](#HMI-PROGRAMS)  
-2. [EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-HMI-programs)   
-3. [TP PROGRAMS](#TP-PROGRAMS)   
-    3.1 [TP_MAIN](#TP_MAIN)  
-    3.2 [TP_BUILD_MAIN](#TP_BUILD_MAIN)  
-    3.3 [TP_BUILD_SCAN](#TP_BUILD_SCAN)  
-    3.4 [TP_SCAN_AREA](#TP_SCAN_AREA)  
-    3.5 [TP_PLC_FIND](#TP_PLC_FIND)  
-    3.6 [TP_PLC_SCAN](#TP_PLC_SCAN)  
-    3.7 [TP_PLC_MOVE](#TP_PLC_MOVE)  
-    3.8 [TP_PLC_DROPBOX](#TP_PLC_DROPBOX)  
-4. [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
-5. [MAIN PROGRAM](#main-program)  
-6. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
-7. [SORTING PIECES](#sorting-pieces)  
-  7.1 [what does the cycle do?](#what-does-the-cycle-do)
-8. [REGISTERS INFORMATION](#registers-information)  
-  8.1 [Integer Registers](#integer-register-r)    
-  8.2 [String Registers](#strings-registers-st)   
-  8.3 [Position Registers](#posoition-registers-pr)  
-  8.4 [Global Digital I/O’s](#global-digital-ios)  
-9. [3D PRINTED PARTS](#3d-printed-parts)
-  9.1 [Download the 3D printed parts](#download-the-3d-printed-parts)
-10. [CONCLUSION](#conclusion) 
+2. [HMI PROGRAMS:](#HMI-PROGRAMS)  
+3. [EXAMPLES OF THE HMI PROGRAMS](#examples-of-the-HMI-programs)   
+  3.1 [IDEA FOR THE HMI PROGRAM](#hmi-idea-on-paper)   
+4. [TP PROGRAMS](#TP-PROGRAMS)   
+    4.1 [TP_MAIN](#TP_MAIN)  
+    4.2 [TP_BUILD_MAIN](#TP_BUILD_MAIN)  
+    4.3 [TP_BUILD_SCAN](#TP_BUILD_SCAN)  
+    4.4 [TP_SCAN_AREA](#TP_SCAN_AREA)  
+    4.5 [TP_PLC_FIND](#TP_PLC_FIND)  
+    4.6 [TP_PLC_SCAN](#TP_PLC_SCAN)  
+    4.7 [TP_PLC_MOVE](#TP_PLC_MOVE)  
+    4.8 [TP_PLC_DROPBOX](#TP_PLC_DROPBOX)  
+5. [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
+6. [MAIN PROGRAM](#main-program)  
+7. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
+8. [IDEA FOR THE SORTING PROGRAM](#idea-for-the-sorting-program)  
+9. [SORTING PIECES](#sorting-pieces)  
+  9.1 [what does the cycle do?](#what-does-the-cycle-do)  
+10. [REGISTERS INFORMATION](#registers-information)   
+  10.1 [Integer Registers](#integer-register-r)    
+  10.2 [String Registers](#strings-registers-st)   
+  10.3 [Position Registers](#posoition-registers-pr)   
+  10.4 [Global Digital I/O’s](#global-digital-ios)  
+11. [3D PRINTED PARTS](#3d-printed-parts)  
+  11.1 [Download the 3D printed parts](#download-the-3d-printed-parts)  
+12. [CONCLUSION](#conclusion)   
 
 ---
 ## INTRODUCTION:. 
@@ -35,7 +37,7 @@ Our latest automation system is an exciting project that showcases the potential
   
 This introduction was generated using chatGPT. 
   
-### Project Description:  
+## Project Description:  
 Our automation system is a sophisticated solution that demonstrates the potential of advanced technologies and programming. The system is built around a robot arm that is controlled by our program, which can pick pieces from a conveyor and move them to a drop-off box with exceptional accuracy and efficiency. The program uses iRVision camera technology, which is fast, reliable, and capable of classifying and identifying the location and orientation of the pieces. This technology enables the robot arm to easily and accurately pick up the pieces and transport them to the drop-off box, which can be rotated to any degree or moved within a three-inch radius.  
   
 In addition to the basic functionality, our program includes the ability to build a house out of blocks. By using the same camera technology, our program can find and record the location of five pieces, which are then use to build a structure in a pre-programmed position on the user frame. This additional feature demonstrates the versatility of the system and provides added value to our classmates by giving them a powerful knowledge of these tools that can be used in a wide range of applications.  
@@ -46,7 +48,7 @@ In summary, our automation system is an exciting project that showcases the endl
   
 This project description was generated using chatGPT and modified by a human.  
   
-### Project Goals:
+## Project Goals:
 
 >[x] Create a program that uses a mounted camera to find a piece on the conveyor and classify it.  
 >> [x] Move the robot to a specific position and scan the area for a sign to become the pick up point.  
@@ -65,13 +67,14 @@ This project description was generated using chatGPT and modified by a human.
 >>[  ] Create a program that can sort the pieces by color.  
 
 
-### Project Objectives:
-The main objectives are:   
-Learn how to use the camera to recognize an object, take the information provided by the robot and then use that information to sort the pieces or build a house with them.   
+## Project Objectives:
+> The main objectives are:   
   
-Using the Fanuc’s HMI software kit, explore the what can be possible to create, for example an easy to use and powerful Control Menu.  
+>> Learn how to use the camera to recognize an object, take the information provided by the robot and then use that information to sort the pieces or build a house with them.   
   
-Create a communication between the robot and the PLC allowing them to talk and interact in a synchronize way.  
+>> Using the Fanuc’s HMI software kit, explore what is possible to create to enhance this project, for example create an easy to use and powerful Control Menu.  
+  
+>> Learn about differnt ways to create a communication between the robot and the PLC allowing them to talk and interact in a synchronize way.  
   
 ---  
 ## HMI PROGRAMS:
@@ -92,7 +95,11 @@ HTML, CSS, Javascript, IE, and the Fanuc's HMI Builder software.
    
 ### ***Main Page  and Objects Sorter Page***    
 FANUC_BUILDER.stm is the main page of this project, by default it displays SIMPLEFINDER.stm but using the tabs menu the user can switch to SETUP.stm and ABOUT.stm.  
-SIMPLEFINDER.stm contains the main menu that controls this project.
+SIMPLEFINDER.stm contains the main menu that controls this project.  
+  
+#### HMI IDEA ON PAPER
+![HMI idea on paper](./Main/Images/IDEAHOUSE.png)
+
 #### FANUC_BUILDER.stm  and SIMPLEFINDER.stm together
 ![Main example page](./Main/Images/MAINSTM.png)  
 
@@ -205,6 +212,14 @@ After the robot finishes the house, it will wait for the next instruction.
 We can check what pieces have been found by looking at the building page.  
 ![Checking pieces that were found](./Main/Images/SETUPSTM.png) 
 ---
+
+    
+#### IDEAS OF THE SORTING PROGRAM   
+  
+![IDEA OF THE SCANNING CODE PROGRAM ON PAPER](./Main/Images/IDEASCANCODE.png)  
+  
+![IDEA OF THE SORTING PROGRAM ON PAPER](./Main/Images/IDEASORTINGBOX.png)  
+  
 ## SORTING PIECES 
 1. Place piece on the place area.  
 2. Select SINGLE or LOOP cycle and wait for cycle to start.   
