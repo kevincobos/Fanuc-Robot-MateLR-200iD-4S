@@ -161,31 +161,32 @@ This program is designed to move the found piece to a programmed position using 
 ---  
 ## HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT
   
-1.  Controls the Auto or Remote state of the robot  
+1.  Controls the Auto or Remote state of the robot.  
   
-2. Executes the main program. “TP_MAIN” ones the program starts running it will stay on a loop waiting for instructions. If a program is running it needs to end it first before it can run another program, this allows us to make our project scale-able   
+2. Executes the main program. “TP_MAIN” once the program starts running it will stay on a loop waiting for instructions. If a program is running it needs to end it first before it can run another program, this allows us to make our project scale-able.   
   
-3. Ask the main program to start TP_BUILD_MAIN   
+3. Ask the main program to start TP_BUILD_MAIN.   
   
-4. Contains the instructions to run the TP_PLC_FIND     
-  4.2. Ask the main program to start TP_PCL_FIND unlimited times    
-  4.3. Ask the main program to wait for the program to stop the loop after the TP_PCL_FIND is done  
+4. Contains the instructions to run the TP_PLC_FIND.     
+  4.2. Ask the main program to start TP_PCL_FIND unlimited times.    
+  4.3. Ask the main program to wait for the program to stop the loop after the TP_PCL_FIND is done.  
   
   
-5. Contains some controls that help us on our system  
-  5.1 Turns ON/OFF alarm when pieces are found.  
-  5.2  Turns ON/OFF laser pointer on robot.  
-  5.3 Show us the state of the signal coming from the PLC    
+5. Contains some additional controls that help us troubleshooting our system.
+  5.1 Turns ON/OFF the alarm when pieces are found.  
+  5.2  Turns ON/OFF the laser pointer on robot.  
+  5.3 Show us the state of the signal coming from the PLC.    
   5.4 Turns ON/OFF the signal that allows us to bypass the PLC.  
   
   
-6. Ask the main program to stop TP_BUILD_MAIN after finishing any cycle that is working on  
+6. Ask the main program to stop TP_BUILD_MAIN after finishing any cycle that is working on.  
   
   
-7. Ask the main program to stop TP_BUILD_MAIN after finishing any cycle that is working on, this button is located on the top the Main screen  
+7. Ask the main program to stop TP_BUILD_MAIN after finishing any cycle that is working on, this button is located on the top of the Main screen.  
   
 #### Below are the pictures and their corresponding numbers.  
 ![CONTROL](./Main/Images/CONTROLMENU.png) 
+  
 --- 
 ## MAIN PROGRAM
 After reading all the warnings and having an idea of what our project does, we can start with the first program.  
