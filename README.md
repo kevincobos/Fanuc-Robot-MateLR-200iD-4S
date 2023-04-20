@@ -29,11 +29,19 @@
 
 ---
 ## INTRODUCTION:
-### Project Description:
-
+### Project Description:  
+Introducing the latest innovation in automation technology: a program that controls a robot arm to pick pieces from a conveyor and move them to a drop-off point with unprecedented accuracy and efficiency. With this system, you can ensure that your production line is running smoothly and efficiently, without the need for manual labor or intervention.  
+  
+The program utilizes a mounted camera that can classify the pieces and identify their position and orientation, making it easy for the robot arm to pick them up and move them to the drop-off box. The same camera is also used to locate the drop-off box, which can be rotated to any degree or moved within a radius of three inches.  
+  
+With this program, you can optimize your production line and streamline your operations. The robot arm can work around the clock without rest, reducing the need for manual labor and increasing productivity. Plus, with its precision and accuracy, you can be confident that your products will meet your exact specifications and requirements.  
+  
+Experience the power of automation with this program and take your production line to the next level.  
+  
+This introduction was generated using chatGPT.  
 ### Project Goals:
 
->[x] Create a program that uses the camera to find a pieces on the conveyor and sort the pieces.  
+>[x] Create a program that uses a mounted camera to find a piece on the conveyor and classify it.  
 >> [x] move the robot to a specific position and scan the area for a sign to become the pick up point.  
 >> [x] move the robot to a specific position and scan the area for a sign to become the drop off point.  
   
