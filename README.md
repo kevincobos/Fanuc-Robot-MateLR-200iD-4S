@@ -28,24 +28,37 @@
 10. [CONCLUSION](#conclusion) 
 
 ---
-## INTRODUCTION:
-### Project Description:
-
+## INTRODUCTION:. 
+Our latest automation system is an exciting project that showcases the potential of advanced technologies and programming. This product has been specifically designed to highlight the capabilities of Fanuc's iRVision camera technology and user-friendly HMI interface. It's perfect for those who are interested in learning about automation systems and the endless possibilities they offer.  
+  
+This introduction was generated using chatGPT. 
+  
+### Project Description:  
+Our automation system is a sophisticated solution that demonstrates the potential of advanced technologies and programming. The system is built around a robot arm that is controlled by our program, which can pick pieces from a conveyor and move them to a drop-off box with exceptional accuracy and efficiency. The program uses iRVision camera technology, which is fast, reliable, and capable of classifying and identifying the location and orientation of the pieces. This technology enables the robot arm to easily and accurately pick up the pieces and transport them to the drop-off box, which can be rotated to any degree or moved within a three-inch radius.  
+  
+In addition to the basic functionality, our program includes the ability to build a house out of blocks. By using the same camera technology, our program can find and record the location of five pieces, which are then use to build a structure in a pre-programmed position on the user frame. This additional feature demonstrates the versatility of the system and provides added value to our classmates by giving them a powerful knowledge of these tools that can be used in a wide range of applications.  
+  
+Our system is designed to be user-friendly and accessible to anyone interested in learning about automation systems. The HMI interface allows users to control our program and adjust settings with ease, without the need for extensive technical knowledge. Additionally, the program includes toggle buttons that enable users to turn on or off an alarm when an object is found, turn on a LED laser to view the camera's position, and bypass the signal coming from the PLC for testing purposes.  
+  
+In summary, our automation system is an exciting project that showcases the endless possibilities of advanced technologies and programming. With advanced iRVision camera technology, a user-friendly HMI interface, our system provides a powerful tool for anyone interested in learning about automation systems.  
+  
+This project description was generated using chatGPT and modified by a human.  
+  
 ### Project Goals:
 
->[x] Create a program that uses the camera to find a pieces on the conveyor and sort the pieces.  
->> [x] move the robot to a specific position and scan the area for a sign to become the pick up point.  
->> [x] move the robot to a specific position and scan the area for a sign to become the drop off point.  
+>[x] Create a program that uses a mounted camera to find a piece on the conveyor and classify it.  
+>> [x] Move the robot to a specific position and scan the area for a sign to become the pick up point.  
+>> [x] Move the robot to a specific position and scan the area for a sign to become the drop off point.  
   
 >[x] Create a program that can build a house of blocks.   
->> [x] move the robot to a specific position and scan the area for a 5 pieces to build a house with those pieces.  
->> [x] pick up the pieces and move them to a specific position.  
+>> [x] Move the robot to a specific position and scan the area for 5 pieces to build a house with those pieces.  
+>> [x] Pick up the pieces and move them to a specific position.  
     
 >[x] Create a program for the Teach Pendant.    
->> [x] Create a connection between the Teach Pendant and the PLC to read the I/O's state.   
->> [x] Create a connection between the HMI and the Teach Pendant program to control the TP program execution.  
->> [x] Create access to remote and auto mode using system variables to enable the Teach Pendant to control the robot in directly from the HMI program.   
->> [x] Connect all the programs in one main program controlled by the HMI program.  
+>> [x] Create a connection between the Teach Pendant and the PLC to read the digital I/O's state of them and use those values later on the project.   
+>> [x] Create a connection between the HMI and the Teach Pendant program to control the  its execution.  
+>> [x] Add access to remote and auto mode using system variables to enable the Teach Pendant to control the robot in directly from the HMI program.   
+>> [x] Connect all the TP programs and HMI pages in one main program controlled by the HMI main program.  
   
 >>[  ] Create a program that can sort the pieces by color.  
 
@@ -75,7 +88,7 @@ HTML, CSS, Javascript, IE, and the Fanuc's HMI Builder software.
 ---  
 ## EXAMPLES OF THE HMI PROGRAMS:  
    
-### ***Main Page  and Objects sorter***    
+### ***Main Page  and Objects Sorter Page***    
 FANUC_BUILDER.stm is the main page of this project, by default it displays SIMPLEFINDER.stm but using the tabs menu the user can switch to SETUP.stm and ABOUT.stm.  
 SIMPLEFINDER.stm contains the main menu that controls this project.
 #### FANUC_BUILDER.stm  and SIMPLEFINDER.stm together
@@ -90,7 +103,7 @@ Green means the piece was found and the position was recorded.
   
 ### ***About Page***     
 This page contains information about the team members of this project and there is a QR Code that can be scanned to see the code online.  
-### ABOUT.stm
+#### ABOUT.stm
 ![About example page](./Main/Images/ABOUTSTM.png)  
 
 ---  
@@ -148,31 +161,32 @@ This program is designed to move the found piece to a programmed position using 
 ---  
 ## HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT
   
-1.  Controls the Auto or Remote state of the robot  
+1.  Controls the Auto or Remote state of the robot.  
   
-2. Executes the main program. “TP_MAIN” ones the program starts running it will stay on a loop waiting for instructions. If a program is running it needs to end it first before it can run another program, this allows us to make our project scale-able   
+2. Executes the main program. “TP_MAIN” once the program starts running it will stay on a loop waiting for instructions. If a program is running it needs to end it first before it can run another program, this allows us to make our project scale-able.   
   
-3. Ask the main program to start TP_BUILD_MAIN   
+3. Ask the main program to start TP_BUILD_MAIN.   
   
-4. Contains the instructions to run the TP_PLC_FIND     
-  4.2. Ask the main program to start TP_PCL_FIND unlimited times    
-  4.3. Ask the main program to wait for the program to stop the loop after the TP_PCL_FIND is done  
+4. Contains the instructions to run the TP_PLC_FIND.     
+  4.2. Ask the main program to start TP_PCL_FIND unlimited times.    
+  4.3. Ask the main program to wait for the program to stop the loop after the TP_PCL_FIND is done.  
   
   
-5. Contains some controls that help us on our system  
-  5.1 Turns ON/OFF alarm when pieces are found.  
-  5.2  Turns ON/OFF laser pointer on robot.  
-  5.3 Show us the state of the signal coming from the PLC    
+5. Contains some additional controls that help us troubleshooting our system.
+  5.1 Turns ON/OFF the alarm when pieces are found.  
+  5.2  Turns ON/OFF the laser pointer on robot.  
+  5.3 Show us the state of the signal coming from the PLC.    
   5.4 Turns ON/OFF the signal that allows us to bypass the PLC.  
   
   
-6. Ask the main program to stop TP_BUILD_MAIN after finishing any cycle that is working on  
+6. Ask the main program to stop TP_BUILD_MAIN after finishing any cycle that is working on.  
   
   
-7. Ask the main program to stop TP_BUILD_MAIN after finishing any cycle that is working on, this button is located on the top the Main screen  
+7. Ask the main program to stop TP_BUILD_MAIN after finishing any cycle that is working on, this button is located on the top of the Main screen.  
   
 #### Below are the pictures and their corresponding numbers.  
 ![CONTROL](./Main/Images/CONTROLMENU.png) 
+  
 --- 
 ## MAIN PROGRAM
 After reading all the warnings and having an idea of what our project does, we can start with the first program.  
