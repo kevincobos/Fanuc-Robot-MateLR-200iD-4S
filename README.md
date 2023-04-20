@@ -305,6 +305,5 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 |     BOTTOM        |   2          |   These parts go in the middle allowing us to gaing pressure and space to grab biger pieces.                |
 |     BOOTH      |   2          |         These parts act like little booths allowing us to move them around and adjusting the grippers reach.            | 
        
-  [Find 3D models to print](https://www.thingiverse.com/thing:4812029)  
-  [Find 3D models to print](https://www.thingiverse.com/thing:5981459)  
+  [Download the 3D models to print here](https://www.thingiverse.com/thing:5981459)  
 ---
