@@ -79,19 +79,19 @@ HTML, CSS, Javascript, IE, and the Fanuc's HMI Builder software.
 FANUC_BUILDER.stm is the main page of this project, by default it displays SIMPLEFINDER.stm but using the tabs menu the user can switch to SETUP.stm and ABOUT.stm.  
 SIMPLEFINDER.stm contains the main menu that controls this project.
 #### FANUC_BUILDER.stm  and SIMPLEFINDER.stm together
-![Main example page](MAINSTM.png)  
+![Main example page](./Main/Images/MAINSTM.png)  
 
 ### ***Building Page***    
 This page contains a representation of the blocks that are use to build the house of blocks.  
 Red means the piece is missing.  
 Green means the piece was found and the position was recorded.  
 #### ***SETUP.stm***  
-![Setup example page](SETUPSTM.png)  
+![Setup example page](./Main/Images/SETUPSTM.png)  
   
 ### ***About Page***     
 This page contains information about the team members of this project and there is a QR Code that can be scanned to see the code online.  
 ### ABOUT.stm
-![About example page](ABOUTSTM.png)  
+![About example page](./Main/Images/ABOUTSTM.png)  
 
 ---  
 ## TP PROGRAMS: 
@@ -172,7 +172,7 @@ This program is designed to move the found piece to a programmed position using 
 7. Ask the main program to stop TP_BUILD_MAIN after finishing any cycle that is working on, this button is located on the top the Main screen  
   
 #### Below are the pictures and their corresponding numbers.  
-![CONTROL](CONTROLMENU.png) 
+![CONTROL](./Main/Images/CONTROLMENU.png) 
 --- 
 ## MAIN PROGRAM
 After reading all the warnings and having an idea of what our project does, we can start with the first program.  
@@ -183,22 +183,22 @@ For the project to work, the Robot’s Computer must be on Auto and Teach pendan
 ## BUILDING A HOUSE OF BLOCKS  
 1. Place all 5 pieces on the area marked as Scan area. Please make sure each piece is at least 1 and ½ inches apart to avoid damaging the robot’s grippers. There are 5 marks for a better idea of where to place each piece.  
 2. On the menu click on BUILD and watch the robot build a house of blocks.   
-![Building](EXAMPLEHOUSE.png)  
+![Building](./Main/Images/EXAMPLEHOUSE.png)  
 After the robot finishes the house, it will wait for the next instruction.  
-![Building a house of blocks](EXAMPLEHOUSECYCLE.png)  
+![Building a house of blocks](./Main/Images/EXAMPLEHOUSECYCLE.png)  
 We can check what pieces have been found by looking at the building page.  
-![Checking pieces that were found](SETUPSTM.png) 
+![Checking pieces that were found](./Main/Images/SETUPSTM.png) 
 ---
 ## SORTING PIECES 
 1. Place piece on the place area.  
 2. Select SINGLE or LOOP cycle and wait for cycle to start.   
 Please place the box used to sort the pieces on the top of DROP BOX sign, there is an example below. 
-![Checking pieces that were found](EXAMPLEPLCDROPBOX.png)  
+![Checking pieces that were found](./Main/Images/EXAMPLEPLCDROPBOX.png)  
   
 ### What does the cycle do?  
   
 Once the piece is place on the “Place area” the conveyor moves it to the “Scan area,” the robot camera will try to find the piece and move it to the “Drop area,” again the robot will use the camera to find the box position and orientation, then drop the found piece in the correct compartment.  
-![Checking pieces that were found](EXAMPLEPLCCYCLE.png)  
+![Checking pieces that were found](./Main/Images/EXAMPLEPLCCYCLE.png)  
 
 ---
   
