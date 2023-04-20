@@ -1,6 +1,4 @@
-# Fanuc-Robot-MateLR-200iD-4S
-
-## School Capstone  
+# Fanuc Robot MateLR 200iD 4S Robot Project
 ### TABLE OF CONTENTS:  
 1. [INTRODUCTION](#introduction)  
     1.1 [Project Description](#project-description)  
@@ -26,6 +24,9 @@
   8.2 [String Registers](#strings-registers-st)   
   8.3 [Position Registers](#posoition-registers-pr)  
   8.4 [Global Digital I/O’s](#global-digital-ios)  
+9. [3D PRINTED PARTS](#3d-printed-parts)
+10. [CONCLUSION](#conclusion) 
+
 ---
 ## INTRODUCTION:
 ### Project Description:
@@ -53,9 +54,9 @@
 The main objectives are:   
 Learn how to use the camera to recognize an object, take the information provided by the robot and then use that information to sort the pieces or build a house with them.   
   
-Using the Fanuc’s HMI software kit, explore the what can be possible to create for example an easy to use and powerful Control Menu.  
+Using the Fanuc’s HMI software kit, explore the what can be possible to create, for example an easy to use and powerful Control Menu.  
   
-Create a communication between the robot and the PLC allow them to talk and interact in a synchronize way.  
+Create a communication between the robot and the PLC allowing them to talk and interact in a synchronize way.  
   
 ---  
 ## HMI PROGRAMS:
@@ -74,21 +75,22 @@ HTML, CSS, Javascript, IE, and the Fanuc's HMI Builder software.
 ---  
 ## EXAMPLES OF THE HMI PROGRAMS:  
    
-### Main Page
-This page contains the main menu that controls this project.  
-#### MAIN.stm  
+### ***Main Page  and Objects sorter***    
+FANUC_BUILDER.stm is the main page of this project, by default it displays SIMPLEFINDER.stm but using the tabs menu the user can switch to SETUP.stm and ABOUT.stm.  
+SIMPLEFINDER.stm contains the main menu that controls this project.
+#### FANUC_BUILDER.stm  and SIMPLEFINDER.stm together
 ![Main example page](MAINSTM.png)  
 
-### Building Page  
-This page contains a representation of the house pieces.  
+### ***Building Page***    
+This page contains a representation of the blocks that are use to build the house of blocks.  
 Red means the piece is missing.  
 Green means the piece was found and the position was recorded.  
-#### SETUP.stm  
+#### ***SETUP.stm***  
 ![Setup example page](SETUPSTM.png)  
   
-### About Page  
-This page contains information about the developers of this project and there is a QR Code that can be scanned to see the code online.  
-#### ABOUT.stm
+### ***About Page***     
+This page contains information about the team members of this project and there is a QR Code that can be scanned to see the code online.  
+### ABOUT.stm
 ![About example page](ABOUTSTM.png)  
 
 ---  
@@ -104,7 +106,7 @@ This page contains information about the developers of this project and there is
 >> TP_BUILD_SCAN  
 >> TP_SCAN_AREA  
 ### Languages and tools used for this part of the project:  
-Teach Pendant and its Programming Language.  
+Fanuc's Teach Pendant and its TP Programming Language.  
 
 ---
 
@@ -277,4 +279,17 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 |     OUTPUT  |   SUB_RUNNING          |   115  |   ON – OFF  |   If ON, we can change Toggle Button                                  |
 |     OUTPUT  |   simdio108            |   116  |   ON – OFF  |   In case the PLC is not working this will bypass DI[101]             |
 |     OUTPUT  |   CAP_ALLOW_EXECUTION  |   118  |   ON – OFF  |   If ON, then run TP_PLC_FIND                                         |
-|     OUTPUT  |   CAP_ALLOW_EXECUTION  |   120  |   ON – OFF  |   If ON alarm will sound when a piece is found                        |
+|     OUTPUT  |   CAP_ALLOW_EXECUTION  |   120  |   ON – OFF  |   If ON alarm will sound when a piece is found                        |  
+---  
+## 3D PRINT PARTS FOR THE ROBOT
+### ***3D Printed Parts***
+![3d printed grippers](./Main/Images/GRIPPERS.png) 
+|     Part Name       |   Quantity   |   Description                                                                 |
+|---------------------|--------------|-------------------------------------------------------------------------------|
+|     TOP        |   2          |   These parts are going to be screwed to the robot grippers.             |
+|     MIDLE       |   2          |   These parts are going to be on the middle offering some flexibility, because they are made of TPU filament.               |
+|     BOTTOM        |   2          |   These parts go in the middle allowing us to gaing pressure and space to grab biger pieces.                |
+|     BOOTH      |   2          |         These parts act like little booths allowing us to move them around and adjusting the grippers reach.            | 
+       
+  [Find 3D models to print](https://www.thingiverse.com/thing:4812029)  
+---
