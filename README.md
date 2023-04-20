@@ -292,4 +292,5 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 |     BOOTH      |   2          |         These parts act like little booths allowing us to move them around and adjusting the grippers reach.            | 
        
   [Find 3D models to print](https://www.thingiverse.com/thing:4812029)  
+  [Find 3D models to print](https://www.thingiverse.com/thing:5981459)  
 ---
