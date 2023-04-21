@@ -19,17 +19,18 @@
 5. [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
 6. [MAIN PROGRAM](#main-program)  
 7. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
-8. [IDEAS FOR THE SORTING PROGRAM](#ideas-for-the-sorting-program)  
-9. [SORTING PIECES](#sorting-pieces)  
+    7.1 [BUILDING A HOUSE OF BLOCKS VIDEO](#building-a-house-of-blocks-video)
+9. [IDEAS FOR THE SORTING PROGRAM](#ideas-for-the-sorting-program)  
+10. [SORTING PIECES](#sorting-pieces)  
   9.1 [what does the cycle do?](#what-does-the-cycle-do)  
-10. [REGISTERS INFORMATION](#registers-information)   
+11. [REGISTERS INFORMATION](#registers-information)   
   10.1 [Integer Registers](#integer-register-r)    
   10.2 [String Registers](#strings-registers-st)   
   10.3 [Position Registers](#posoition-registers-pr)   
   10.4 [Global Digital I/O’s](#global-digital-ios)  
-11. [3D PRINTED PARTS](#3d-printed-parts)  
+12. [3D PRINTED PARTS](#3d-printed-parts)  
   11.1 [Download the 3D printed parts](#download-the-3d-models-to-print-here)  
-12. [CONCLUSION](#conclusion)   
+13. [CONCLUSION](#conclusion)   
 
 ---
 ## INTRODUCTION:. 
@@ -203,10 +204,12 @@ For the project to work, the Robot’s Computer must be on Auto and Teach pendan
 1. Robot must be in REMOTE mode.  
 2. Start the TP_MAIN program.  
   
+## BUILDING A HOUSE OF BLOCKS  
+
+## BUILDING A HOUSE OF BLOCKS VIDEO
 ***You can watch the video bellow see the building process in action***  
 [![Video building a house](https://img.youtube.com/vi/rNWaLeZ5TV0/0.jpg)](https://www.youtube.com/watch?v=rNWaLeZ5TV0)  
   
-## BUILDING A HOUSE OF BLOCKS  
 1. Place all 5 pieces on the area marked as Scan area. Please make sure each piece is at least 1 and ½ inches apart to avoid damaging the robot’s grippers. There are 5 marks for a better idea of where to place each piece.  
 2. On the menu click on BUILD and watch the robot build a house of blocks.   
 ![Building](./Main/Images/EXAMPLEHOUSE.png)  
