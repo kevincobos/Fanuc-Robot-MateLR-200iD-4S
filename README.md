@@ -203,6 +203,9 @@ For the project to work, the Robot’s Computer must be on Auto and Teach pendan
 1. Robot must be in REMOTE mode.  
 2. Start the TP_MAIN program.  
   
+***You can watch the video bellow see the building process in action***  
+[![Video building a house](https://img.youtube.com/vi/rNWaLeZ5TV0/0.jpg)](https://www.youtube.com/watch?v=rNWaLeZ5TV0)  
+  
 ## BUILDING A HOUSE OF BLOCKS  
 1. Place all 5 pieces on the area marked as Scan area. Please make sure each piece is at least 1 and ½ inches apart to avoid damaging the robot’s grippers. There are 5 marks for a better idea of where to place each piece.  
 2. On the menu click on BUILD and watch the robot build a house of blocks.   
