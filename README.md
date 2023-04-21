@@ -19,10 +19,11 @@
 5. [HOW TO USE THE CONTROL MENU ON THE TEACH PENDANT](#how-to-use-the-control-menu-on-the-teach-pendant)  
 6. [MAIN PROGRAM](#main-program)  
 7. [BULDING A HOUSE OF BLOCKS](#building-a-house-of-blocks)  
-    7.1 [BUILDING A HOUSE OF BLOCKS VIDEO](#building-a-house-of-blocks-video)
+    7.1 [SORTING OBJECTS VIDEO](#sorting-objects-video)  
 9. [IDEAS FOR THE SORTING PROGRAM](#ideas-for-the-sorting-program)  
 10. [SORTING PIECES](#sorting-pieces)  
-  9.1 [what does the cycle do?](#what-does-the-cycle-do)  
+  9.1 [BUILDING A HOUSE OF BLOCKS VIDEO](#building-a-house-of-blocks-video)  
+  9.2 [what does the cycle do?](#what-does-the-cycle-do)  
 11. [REGISTERS INFORMATION](#registers-information)   
   10.1 [Integer Registers](#integer-register-r)    
   10.2 [String Registers](#strings-registers-st)   
@@ -207,7 +208,7 @@ For the project to work, the Robot’s Computer must be on Auto and Teach pendan
 ## BUILDING A HOUSE OF BLOCKS  
 
 ### BUILDING A HOUSE OF BLOCKS VIDEO
-***You can watch the video bellow see the building process in action***  
+***The video bellow shows building a house of blocks in action***  
 [![Video building a house](https://img.youtube.com/vi/rNWaLeZ5TV0/0.jpg)](https://www.youtube.com/watch?v=rNWaLeZ5TV0)  
   
 1. Place all 5 pieces on the area marked as Scan area. Please make sure each piece is at least 1 and ½ inches apart to avoid damaging the robot’s grippers. There are 5 marks for a better idea of where to place each piece.  
@@ -228,6 +229,11 @@ Since the cameras are very sensitive to light, we decided to use a bar code to i
 ![IDEA OF THE SORTING PRO GRAM ON PAPER](./Main/Images/IDEASORTINGBOX.png)  
   
 ## SORTING PIECES 
+  
+### SORTING OBJECTS VIDEO  
+***The video bellow shows the sorting objects in action***  
+[![Video sorting objects](https://img.youtube.com/vi/Whb0eRSDJuc/0.jpg)](https://www.youtube.com/watch?v=Whb0eRSDJuc)  
+
 1. Place piece on the place area.  
 2. Select SINGLE or LOOP cycle and wait for cycle to start.   
 Please place the box used to sort the pieces on the top of DROP BOX sign, there is an example below. 
