@@ -206,7 +206,7 @@ For the project to work, the Robot’s Computer must be on Auto and Teach pendan
   
 ## BUILDING A HOUSE OF BLOCKS  
 
-## BUILDING A HOUSE OF BLOCKS VIDEO
+### BUILDING A HOUSE OF BLOCKS VIDEO
 ***You can watch the video bellow see the building process in action***  
 [![Video building a house](https://img.youtube.com/vi/rNWaLeZ5TV0/0.jpg)](https://www.youtube.com/watch?v=rNWaLeZ5TV0)  
   
