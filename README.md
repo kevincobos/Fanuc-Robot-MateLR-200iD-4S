@@ -29,8 +29,10 @@
   10.2 [String Registers](#strings-registers-st)   
   10.3 [Position Registers](#posoition-registers-pr)   
   10.4 [Global Digital I/O’s](#global-digital-ios)  
-12. [3D PRINTED PARTS](#3d-printed-parts)  
-  11.1 [Download the 3D printed parts](#download-the-3d-models-to-print-here)  
+12. [3D PRINT PARTS FOR THE ROBOT ARM](#3d-print-parts-for-the-robot-arm)  
+  11.1 [3D PRINTED GRIPPERS VIDEO](#3d-printed-grippers-video)   
+  11.2 [3D PRINTED PARTS AND FILLAMENTS USED](#3d-printed-parts-and-filaments-used)  
+  11.3 [Download the 3D printed parts](#download-the-3d-models-to-print-here)  
 13. [CONCLUSION](#conclusion)   
 
 ---
@@ -325,17 +327,20 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 |     OUTPUT  |   CAP_ALLOW_EXECUTION  |   118  |   ON – OFF  |   If ON, then run TP_PLC_FIND                                         |
 |     OUTPUT  |   CAP_ALLOW_EXECUTION  |   120  |   ON – OFF  |   If ON alarm will sound when a piece is found                        |  
 ---  
-## 3D PRINT PARTS FOR THE ROBOT  
-***You can watch the video bellow to have a better idea of how these grippers work***  
+## 3D PRINT PARTS FOR THE ROBOT ARM   
+### 3D PRINTED GRIPPERS VIDEO  
+  
+***The video bellow shows a better view of how these grippers work***  
 [![Video explaining 3d parts](https://img.youtube.com/vi/Wqf1saAjY4c/0.jpg)](https://www.youtube.com/watch?v=Wqf1saAjY4c)  
-### ***3D Printed Parts***  
+  
+### ***3D PRINTED PARTS AND FILAMENTS USED***  
 ![3d printed grippers](./Main/Images/GRIPPERS.png) 
 |     Part Name       |   Quantity   |   Description                                                                 |
 |---------------------|--------------|-------------------------------------------------------------------------------|
 |     TOP        |   2          |   These parts are going to be screwed to the robot grippers.             |
 |     MIDLE       |   2          |   These parts are going to be on the middle offering some flexibility, because they are made of TPU filament.               |
 |     BOTTOM        |   2          |   These parts go in the middle allowing us to gaing pressure and space to grab biger pieces.                |
-|     BOOTH      |   2          |         These parts act like little booths allowing us to move them around and adjusting the grippers reach.            |  
+|     BOOT      |   2          |         These parts act like little booths allowing us to move them around and adjusting the grippers reach.            |  
   
 #### ***[Download the 3D models to print here](https://www.thingiverse.com/thing:5981459)***  
   
