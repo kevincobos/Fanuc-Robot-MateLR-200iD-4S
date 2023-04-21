@@ -208,7 +208,7 @@ For the project to work, the Robot’s Computer must be on Auto and Teach pendan
 ## BUILDING A HOUSE OF BLOCKS  
 
 ### BUILDING A HOUSE OF BLOCKS VIDEO
-***The video bellow shows building a house of blocks in action***  
+***The video bellow shows building a house of blocks program in action***  
 [![Video building a house](https://img.youtube.com/vi/rNWaLeZ5TV0/0.jpg)](https://www.youtube.com/watch?v=rNWaLeZ5TV0)  
   
 1. Place all 5 pieces on the area marked as Scan area. Please make sure each piece is at least 1 and ½ inches apart to avoid damaging the robot’s grippers. There are 5 marks for a better idea of where to place each piece.  
@@ -231,7 +231,7 @@ Since the cameras are very sensitive to light, we decided to use a bar code to i
 ## SORTING PIECES 
   
 ### SORTING OBJECTS VIDEO  
-***The video bellow shows the sorting objects in action***  
+***The video bellow shows the sorting objects program in action***  
 [![Video sorting objects](https://img.youtube.com/vi/Whb0eRSDJuc/0.jpg)](https://www.youtube.com/watch?v=Whb0eRSDJuc)  
 
 1. Place piece on the place area.  
