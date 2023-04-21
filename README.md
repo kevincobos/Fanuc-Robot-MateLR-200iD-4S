@@ -313,10 +313,10 @@ Once the piece is place on the “Place area” the conveyor moves it to the “
 |     OUTPUT  |   CAP_ALLOW_EXECUTION  |   118  |   ON – OFF  |   If ON, then run TP_PLC_FIND                                         |
 |     OUTPUT  |   CAP_ALLOW_EXECUTION  |   120  |   ON – OFF  |   If ON alarm will sound when a piece is found                        |  
 ---  
-## 3D PRINT PARTS FOR THE ROBOT
-### ***3D Printed Parts***  
-***You can watch the video bellow to have a better idea of how these grippers work***
+## 3D PRINT PARTS FOR THE ROBOT  
+***You can watch the video bellow to have a better idea of how these grippers work***  
 [![Video explaining 3d parts](https://img.youtube.com/vi/Wqf1saAjY4c/0.jpg)](https://www.youtube.com/watch?v=Wqf1saAjY4c)  
+### ***3D Printed Parts***  
 ![3d printed grippers](./Main/Images/GRIPPERS.png) 
 |     Part Name       |   Quantity   |   Description                                                                 |
 |---------------------|--------------|-------------------------------------------------------------------------------|
